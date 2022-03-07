@@ -1,5 +1,7 @@
 <template>
-  <Tutorial />
+  <div>
+    <h1>Satina's Food Blog</h1>
+  </div>
 </template>
 
 <script>
