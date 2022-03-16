@@ -16,4 +16,5 @@
 export default {
   name: 'IndexPage',
 }
+console.log('eggs')
 </script>
