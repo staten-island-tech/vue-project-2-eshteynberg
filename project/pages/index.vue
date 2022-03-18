@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div>
+    <div class="button">
       <button>Home</button>
       <button>About</button>
       <button>Cuisines</button>
@@ -10,9 +10,11 @@
     <h1>Satina's Food Blog</h1>
     <h2>Menu</h2>
     <div>
-      <il>Don't Be Scared To Explore Your Options</il>
-      <il>Don't Be Scared</il>
+      <h3>Don't Be Scared To Explore Your Options</h3>
+      <h3>Live Life To The Fullest</h3>
+      <h3>Eggs</h3>
     </div>
+
   </div>
 </template>
 
