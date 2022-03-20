@@ -8,7 +8,7 @@ export default {
   blogs: [
     {
       number: 1,
-      title: 'sushi',
+      title: 'best sushi spots',
       cuisine: 'Japanese',
       desc: 'ddneefewf',
       location: 'Brooklyn',
@@ -16,7 +16,7 @@ export default {
     },
     {
       number: 2,
-      title: 'dumplings',
+      title: 'best dumplings',
       cuisine: 'Chinese',
       desc: 'fefefegf',
       location: 'Brooklyn',
@@ -24,7 +24,7 @@ export default {
     },
     {
       number: 3,
-      title: 'kebab',
+      title: 'best kebab',
       cuisine: 'Middle Eastern',
       desc: 'rgrgrg',
       location: 'Manhattan',
@@ -32,7 +32,7 @@ export default {
     },
     {
       number: 4,
-      title: 'ramen',
+      title: 'my favorite ramen',
       cuisine: 'Japanese',
       desc: 'eregregt',
       location: 'Queens',
@@ -40,7 +40,7 @@ export default {
     },
     {
       number: 5,
-      title: 'beijing roasted duck',
+      title: 'my favorite roasted duck',
       cuisine: 'Chinese',
       desc: 'fefggrg',
       location: 'Queens',
@@ -48,7 +48,7 @@ export default {
     },
     {
       number: 6,
-      title: 'mochi',
+      title: 'best mochi',
       cuisine: 'Japanese',
       desc: 'ssfdfsf',
       location: 'Manhattan',
@@ -56,7 +56,7 @@ export default {
     },
     {
       number: 7,
-      title: 'falafel',
+      title: 'best falafel spots',
       cuisine: 'Middle Eastern',
       desc: 'grgukuk',
       location: 'Brooklyn',
@@ -64,7 +64,7 @@ export default {
     },
     {
       number: 8,
-      title: 'turkish desserts',
+      title: 'best turkish desserts',
       cuisine: 'Middle Eastern',
       desc: 'ykjyotutoy',
       location: 'Brooklyn',
@@ -72,7 +72,7 @@ export default {
     },
     {
       number: 9,
-      title: 'chinese desserts',
+      title: 'best chinese desserts',
       cuisine: 'Chinese',
       desc: 'ykjyotutoy',
       location: 'Manhattan',
