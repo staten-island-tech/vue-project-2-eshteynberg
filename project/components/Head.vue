@@ -1,7 +1,7 @@
 <template>
   <div>
-    <a href="/home">Home</a>
-    <a href="/all">All Posts</a>
+    <a href="/">Home</a>
+    <a href="/all/index">All Posts</a>
     <a href="/brooklyn">Brooklyn</a>
     <a href="/manhattan">Manhattan</a>
     <a href="/queens">Queens</a>
