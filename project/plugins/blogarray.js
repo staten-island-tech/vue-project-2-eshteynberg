@@ -14,7 +14,7 @@ export default ({ app }, inject) => {
       },
       {
         number: 2,
-        title: 'best Bibimbap',
+        title: 'best bibimbap',
         cuisine: 'Korean',
         desc: 'fefefegf',
         location: 'Brooklyn',
@@ -77,6 +77,15 @@ export default ({ app }, inject) => {
       },
       {
         number: 9,
+        title: 'my favorite tacos',
+        cuisine: 'latin',
+        desc: 'ykjyotutoy',
+        text: 'rggfhggjjgj',
+        location: 'Queens',
+        img: 'https://images.unsplash.com/photo-1613514785940-daed07799d9b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80',
+      },
+      {
+        number: 10,
         title: 'best burgers',
         cuisine: 'American',
         desc: 'ykjyotutoy',
@@ -85,7 +94,7 @@ export default ({ app }, inject) => {
         img: 'https://images.unsplash.com/photo-1565299507177-b0ac66763828?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8YnVyZ2VyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60',
       },
       {
-        number: 10,
+        number: 11,
         title: 'best NYC pizza',
         cuisine: 'American',
         desc: 'ykjyotutoy',
