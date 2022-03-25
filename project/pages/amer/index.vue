@@ -13,7 +13,7 @@
 export default {
   methods: {
     filterBlog() {
-      return this.getBlogs().filter((b) => b.location === 'Brooklyn')
+      return this.getBlogs().filter((b) => b.location === 'Queens')
     },
     getBlogs() {
       return this.$blogs
@@ -22,5 +22,4 @@ export default {
 }
 </script>
 
-<style>
-</style>
+<style></style>
