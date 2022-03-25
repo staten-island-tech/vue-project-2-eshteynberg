@@ -1,7 +1,7 @@
 <template>
   <div class="btn-bar">
     <a class="btn" href="/">Home</a>
-    <a class="btn" href="/all/index">All Posts</a>
+    <a class="btn" href="/all">All Posts</a>
     <a class="btn" href="/cuisines">Cuisines</a>
     <a class="btn" href="/contact">Contact Us</a>
   </div>
@@ -42,10 +42,8 @@ body {
   font-size: 100%;
   font-weight: 700;
   line-height: 24px;
-  margin: 0;
   outline: 2px solid transparent;
   padding: 1rem 1.5rem;
-  text-align: center;
   text-transform: none;
   transition: all 0.1s cubic-bezier(0.4, 0, 0.2, 1);
   user-select: none;
