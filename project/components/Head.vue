@@ -2,11 +2,11 @@
   <div class="btn-bar">
     <a class="btn" href="/">Home</a>
     <a class="btn" href="/all">All Posts</a>
-    <a class="btn" href="/kor">Korean</a>
-    <a class="btn" href="/jap">Japanese</a>
-    <a class="btn" href="/med">Mediterranean</a>
-    <a class="btn" href="/amer">American</a>
-    <a class="btn" href="/latin">Latin American</a>
+    <a class="btn drop" href="/kor">Korean</a>
+    <a class="btn drop" href="/jap">Japanese</a>
+    <a class="btn drop" href="/med">Mediterranean</a>
+    <a class="btn drop" href="/amer">American</a>
+    <a class="btn drop" href="/latin">Latin American</a>
     <a class="btn" href="/contact">Contact Us</a>
   </div>
 </template>

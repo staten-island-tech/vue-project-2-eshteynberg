@@ -13,7 +13,7 @@
 export default {
   methods: {
     filterBlog() {
-      return this.getBlogs().filter((b) => b.location === 'Queens')
+      return this.getBlogs().filter((b) => b.location === '')
     },
     getBlogs() {
       return this.$blogs
