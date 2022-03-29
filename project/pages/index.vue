@@ -1,7 +1,11 @@
 <template>
   <div>
+<<<<<<< HEAD
     <Head></Head>
     <Featured :blogs="blogs"></Featured>
+=======
+    <h1>Satina's Food Blog</h1>
+>>>>>>> parent of 20d57c0 (dfghj)
   </div>
 </template>
 
