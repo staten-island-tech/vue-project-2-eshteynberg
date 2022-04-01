@@ -1,7 +1,8 @@
 <template>
   <div>
     <h1>Satina's Food Blog</h1>
-    <div>v-for= "blogpost in blogposts" :key = "blogpost.title"</div>
+    <div><Post
+    v-for= "blogpost in blogposts" :key = "blogpost.title" :title="blogpost.title" :desc="blogpost.description"></Post></div>
   </div>
 </template>
 
@@ -10,11 +11,18 @@ export default {
   name: 'IndexPage',
   data() {
     return {
-      title: `Blog`,
+      blogposts:[],
+    }
+  },
+  head(){
+    return{
+      title:`Blog`
     }
   },
   async fetch() {
     this.blogposts = await this.$content('blogposts').fetch()
   },
+
+
 }
 </script>
