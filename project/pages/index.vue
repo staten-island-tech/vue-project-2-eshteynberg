@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>Satina's Food Blog</h1>
+    <splash></splash>
     <div><Post
     v-for= "blogpost in blogposts" :key = "blogpost.title" :title="blogpost.title" :desc="blogpost.description"></Post></div>
   </div>
