@@ -11,14 +11,15 @@
 
 <style scoped>
 #chalk {
-    position: absolute;
-    top: 1rem;
+    position: relative;
+    bottom: 73rem;
     left: 25%;
 }
 
 #trees { 
 position:  relative;
-top: 5rem
+top: 5rem;
+margin-right: 1rem;
 }
 
 #dots { 
@@ -31,7 +32,7 @@ width: 100%;
 
 #food-blog{
     position: relative;
-    bottom: 60rem;
+    bottom: 96rem;
     text-align: center;
     font-size: 4rem;
     color: white;
