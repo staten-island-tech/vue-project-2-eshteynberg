@@ -1,10 +1,15 @@
 <template>
   <div>
+    <body>
+    <NavBar></NavBar>
     <splash></splash>
     <div><Post
     v-for= "blogpost in blogposts" :key = "blogpost.title" :title="blogpost.title" :desc="blogpost.description"></Post></div>
+     </body>
   </div>
+  
 </template>
+
 
 <script>
 export default {
@@ -26,3 +31,10 @@ export default {
 
 }
 </script>
+
+<style>
+
+.body{
+  background-color: #B2966F;
+}
+</style>
