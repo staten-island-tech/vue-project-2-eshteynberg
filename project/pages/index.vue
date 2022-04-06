@@ -34,11 +34,12 @@ export default {
 
 <style>
 
-.body{
+body{
   background-color: #B2966F;
 }
 
 .test{
   object-fit: contain;
 }
+
 </style>
