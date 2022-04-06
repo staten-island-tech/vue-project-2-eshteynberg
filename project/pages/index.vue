@@ -2,7 +2,7 @@
   <div>
     <body>
     <NavBar></NavBar>
-    <splash></splash>
+    <splash class="test"></splash>
     <div><Post
     v-for= "blogpost in blogposts" :key = "blogpost.title" :title="blogpost.title" :desc="blogpost.description"></Post></div>
      </body>
@@ -36,5 +36,9 @@ export default {
 
 .body{
   background-color: #B2966F;
+}
+
+.test{
+  object-fit: contain;
 }
 </style>

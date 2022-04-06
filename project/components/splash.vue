@@ -19,12 +19,11 @@
 #trees { 
 position:  relative;
 top: 5rem;
-margin-right: 1rem;
 }
 
 #dots { 
-position:  absolute;
-top: 0%;
+position:  relative;
+bottom: 120rem;
 z-index: -1;
 height: 80rem;
 width: 100%;
@@ -32,7 +31,7 @@ width: 100%;
 
 #food-blog{
     position: relative;
-    bottom: 96rem;
+    bottom: 176rem;
     text-align: center;
     font-size: 4rem;
     color: white;
