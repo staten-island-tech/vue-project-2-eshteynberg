@@ -1,9 +1,11 @@
 <template>
     <div class="NavBar">
+        <img class="coffee" src="./img/coffee.png" alt="">
         <button class="btn">Home</button>
         <button class="btn">About</button>
         <button class="btn">Cuisines</button>
         <button class="btn">Contact Us</button>
+        
     </div>
 </template>
 
@@ -11,6 +13,10 @@
 .NavBar{
     background-color: #B2966F;
     height: 6rem;
+}
+
+.coffee{ 
+    z-index: -1;
 }
 
 .btn    {

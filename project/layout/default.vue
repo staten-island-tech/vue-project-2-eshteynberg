@@ -1,4 +1,8 @@
-<template></template>
+<template>
+
+<NavBar></NavBar>
+<Nuxt></Nuxt>
+</template>
 
 
 
