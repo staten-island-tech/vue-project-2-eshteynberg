@@ -17,6 +17,7 @@
 
 .coffee{ 
     z-index: -1;
+    margin-left: 3rem;
 }
 
 .btn    {
@@ -25,8 +26,8 @@
     color: white;
     flex-flow: row;
     justify-content: space-between;
-    margin-top: 1.5%;
-    margin-left: 15%;
+    margin-bottom: 1rem;
+    margin-left: 18rem;
     border: #B2966F solid ;
     font-size: 1.25rem;
     text-align: center;

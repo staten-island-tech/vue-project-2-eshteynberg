@@ -12,7 +12,7 @@
 <style scoped>
 .splash{ 
     width: 120rem;
-    height: 70rem;
+    height: 55rem;
     background-size: cover;
 }
 #food-blog{
