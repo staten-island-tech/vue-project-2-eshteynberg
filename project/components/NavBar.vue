@@ -1,10 +1,10 @@
 <template>
     <div class="NavBar">
         <img class="coffee" src="./img/coffee.png" alt="">
-        <button class="btn">Home</button>
-        <button class="btn">About</button>
-        <button class="btn">Cuisines</button>
-        <button class="btn">Contact Us</button>
+        <a class="btn" href='/project/pages/index.vue'>Home</a>
+        <a class="btn" href='/project/pages/about.vue'>About</a>
+        <a class="btn" href='/project/pages/cuisines.vue'>Cuisines</a>
+        <a class="btn">Contact Us</a>
         
     </div>
 </template>
@@ -33,3 +33,9 @@
     text-align: center;
 }
 </style>
+
+<script>
+export default {
+    navbar: Object,
+}
+</script>

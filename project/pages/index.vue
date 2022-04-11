@@ -1,7 +1,7 @@
 <template>
   <div>
     <body>
-    <NavBar></NavBar>
+    
     <splash class="test"></splash>
     <!-- <div><Post
     v-for= "blogpost in blogposts" :key = "blogpost.title" :title="blogpost.title" :desc="blogpost.description"></Post></div> -->
