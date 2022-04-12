@@ -1,9 +1,9 @@
 <template>
     <div class="NavBar">
         <img class="coffee" src="./img/coffee.png" alt="">
-        <a class="btn" href='/project/pages/index.vue'>Home</a>
-        <a class="btn" href='/project/pages/about.vue'>About</a>
-        <a class="btn" href='/project/pages/cuisines.vue'>Cuisines</a>
+        <a class="btn" href='\pages\index.vue'>Home</a>
+        <a class="btn" href='/about'>About</a>
+        <a class="btn" href='/cuisines'>Cuisines</a>
         <a class="btn">Contact Us</a>
         
     </div>
