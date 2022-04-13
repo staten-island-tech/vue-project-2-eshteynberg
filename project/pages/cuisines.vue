@@ -1,7 +1,5 @@
 <template>
-   <div>
-<img src="/project/components/img/map.png" alt="">
-   </div>
+  <Map></Map>
 </template>
 
 <style>
