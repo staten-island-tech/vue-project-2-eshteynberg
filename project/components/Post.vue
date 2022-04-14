@@ -1,18 +1,11 @@
 <template>
-<<<<<<< Updated upstream
-  <div class="Post">
-    <h3>{{ title }}</h3>
-    <h4>{{ desc }}</h4>
-  </div>
-=======
     <div class="Post">
         <h3 class="title">{{ title }}</h3>
-
-<img class="image-blog" src= {{  }} alt="">
+<!-- 
+<img class="image-blog" src= {{  }} alt=""> -->
 
         <h4 class="description">{{ desc }}</h4>
     </div>
->>>>>>> Stashed changes
 </template>
 
 <script>
@@ -26,22 +19,27 @@ export default {
       type: String,
       default: 'Description',
     },
+    slug: {
+        type: String,
+        default: '/',
+    },
   },
 }
 </script>
 
 <style>
-<<<<<<< Updated upstream
-.Post {
-  width: 40%;
-  display: flex;
-  border: solid black;
-=======
 .Post { 
     width: 40%;
     display: flex;
     border-style: solid;
     border: solid #000 1rem;
->>>>>>> Stashed changes
+     background-color: #C09165;
+  flex-direction: row ;
+  outline-color: black;
+  outline: 1rem;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
 }
+
 </style>

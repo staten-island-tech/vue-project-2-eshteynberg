@@ -1,24 +1,19 @@
 <template>
   <div>
     <body>
-<<<<<<< Updated upstream
       <splash class="test"></splash>
-      <div>
-        <Post
+       <h1>pls ignore ugly borders just wanted a guide to where the things stop</h1>
+      <div class="all-posts">
+      
+        <Post class="post"
           v-for="blogpost in blogposts"
           :key="blogpost.title"
           :title="blogpost.title"
           :desc="blogpost.description"
+          :img="blogpost.image"
         ></Post>
       </div>
     </body>
-=======
-    
-    <splash class="test"></splash>
-    <div><Post class="post"
-    v-for= "blogpost in blogposts" :key = "blogpost.title" :title="blogpost.title" :desc="blogpost.description"></Post></div>
-     </body>
->>>>>>> Stashed changes
   </div>
 </template>
 
@@ -50,20 +45,17 @@ body {
 .test {
   object-fit: contain;
 }
-<<<<<<< Updated upstream
-</style>
-=======
-
-.post {
-  background-color: #C09165;
-  display: flex;
-  flex-direction: row ;
-  outline-color: black;
-  outline: 1rem;
 
 
+
+.all-posts{
+
+  display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-template-rows: repeat(5, 1fr);
+grid-column-gap: 0px;
+grid-row-gap: 0px;
+justify-content: center;
 }
-
 </style>
 
->>>>>>> Stashed changes

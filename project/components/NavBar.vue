@@ -1,5 +1,4 @@
 <template>
-<<<<<<< Updated upstream
   <div class="NavBar">
     <img class="coffee" src="./img/coffee.png" alt="" />
     <a class="btn" href="/index">Home</a>
@@ -7,16 +6,6 @@
     <a class="btn" href="/cuisines">Cuisines</a>
     <a class="btn">Contact Us</a>
   </div>
-=======
-    <div class="NavBar">
-        <img class="coffee" src="./img/coffee.png" alt="">
-        <a class="btn" href='project\pages\index.vue'>Home</a>
-        <a class="btn" href='/about'>About</a>
-        <a class="btn" href='/cuisines'>Cuisines</a>
-        <a class="btn">Contact Us</a>
-        
-    </div>
->>>>>>> Stashed changes
 </template>
 
 <style scoped>
