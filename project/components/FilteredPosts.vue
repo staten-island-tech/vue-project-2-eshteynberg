@@ -22,13 +22,14 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 
 
 img{
-  size: 50%;
-  object-fit: contain;
+  height: 10rem;
+  width: 10rem;
 }
+
 .h1{
   justify-content: center;
   margin-top: 2rem;
@@ -41,21 +42,10 @@ img{
 }
 .parent {
 display: grid;
-grid-template-columns: 1.5fr 0.8fr 1fr;
-grid-template-rows: 1.5fr 1fr 1.3fr;
-grid-column-gap: 15px;
+grid-template-columns: repeat(2, 1fr);
+grid-template-rows: repeat(4, 1fr);
+grid-column-gap: 0px;
 grid-row-gap: 0px;
- width: 100%;
-  height: 100%;
 }
 
-.div1 { grid-area: 1 / 1 / 2 / 2; object-fit: contain;  }
-.div2 { grid-area: 1 / 2 / 2 / 3; }
-.div3 { grid-area: 1 / 3 / 2 / 4; }
-.div4 { grid-area: 2 / 1 / 3 / 2; }
-.div5 { grid-area: 2 / 2 / 3 / 3; }
-.div6 { grid-area: 2 / 3 / 3 / 4; }
-.div7 { grid-area: 3 / 1 / 4 / 2; }
-.div8 { grid-area: 3 / 2 / 4 / 3; }
-.div9 { grid-area: 3 / 3 / 4 / 4; }
 </style>
