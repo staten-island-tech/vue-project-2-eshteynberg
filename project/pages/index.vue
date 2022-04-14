@@ -12,7 +12,9 @@
           :desc="blogpost.description"
           :img="blogpost.image"
         ></Post>
+              <quotepg></quotepg>
       </div>
+
     </body>
   </div>
 </template>
