@@ -12,7 +12,7 @@
           :desc="blogpost.description"
           :img="blogpost.image"
         ></Post>
-              <quotepg></quotepg>
+              <quotepg class="quotes"></quotepg>
       </div>
 
     </body>
@@ -58,6 +58,9 @@ grid-template-rows: repeat(5, 1fr);
 grid-column-gap: 0px;
 grid-row-gap: 0px;
 justify-content: center;
+}
+.quotes{
+  margin-bottom: 10rem;
 }
 </style>
 

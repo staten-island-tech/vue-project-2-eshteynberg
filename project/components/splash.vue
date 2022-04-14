@@ -3,8 +3,7 @@
     <body>
         <img class="splash" src="./img/splash.png" alt="">
     </body>
-    <h1 id="food-blog">SATINA'S</h1>
-    <h1 id="food-blog"> FOOD BLOG</h1>
+
 </div>
 
 </template>
