@@ -24,11 +24,6 @@ export default {
 
 <style>
 
-
-img{
-  size: 50%;
-  object-fit: contain;
-}
 .h1{
   justify-content: center;
   margin-top: 2rem;
