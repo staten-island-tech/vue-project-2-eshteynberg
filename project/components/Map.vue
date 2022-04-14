@@ -4,18 +4,21 @@
 <img class="map" src="./img/map.png" alt="">
 
 <div class="pin">
-<button id="america" style="" class="pin-america"><img class="btn-img-pin" src="./img/pin.png" alt=""></button>
-<button class="pin-korea"><img class="btn-img-pin" src="./img/pin.png" alt=""></button>
-<button class="pin-italy"><img class="btn-img-pin" src="./img/pin.png" alt=""></button>
-<button class="pin-mexico"><img class="btn-img-pin" src="./img/pin.png" alt=""></button>
+    <a class="pin-america" href="/onePost"><img class="btn-img-pin" src="./img/pin.png" alt=""></a>
+    <a class="pin-korea" href="/onePost"><img class="btn-img-pin" src="./img/pin.png" alt=""></a>
+    <a class="pin-italy" href="/onePost"><img class="btn-img-pin" src="./img/pin.png" alt=""></a>
+    <a class="pin-mexico" href="/onePost"><img class="btn-img-pin" src="./img/pin.png" alt=""></a>
+
 
 </div>
-
+<filtered-posts></filtered-posts>
 </div>
 </template>
 
 <script>
+import FilteredPosts from './FilteredPosts.vue'
 export default {
+  components: { FilteredPosts },
 
 }
 
@@ -31,23 +34,17 @@ export default {
 
 .pin-america{
     position: absolute;
-    top: 30rem;
-    left: 20rem;
+    top: 32rem;
+    left: 23rem;
     height: 5rem;
     width: 5rem;
-    color: transparent;
-     background-color: transparent; 
-     /* border-color: transparent;  */
 }
 .pin-korea{
     position: absolute;
-    top: 30rem;
+    top: 32rem;
     left: 92rem;
     height: 5rem;
     width: 5rem;
-    color: transparent;
-     background-color: transparent; 
-     /* border-color: transparent;  */
 }
 .pin-italy{
     position: absolute;
@@ -55,19 +52,14 @@ export default {
     left: 57rem;
     height: 5rem;
     width: 5rem;
-    color: transparent;
-     background-color: transparent; 
-     /* border-color: transparent;  */
 }
 .pin-mexico{
     position: absolute;
-    top: 35rem;
-    left: 21rem;
+    top: 36rem;
+    left: 21.5rem;
     height: 5rem;
     width: 5rem;
-    color: transparent;
-     background-color: transparent; 
-     /* border-color: transparent;  */
+
 }
 
 .btn-img-pin {
