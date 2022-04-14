@@ -1,10 +1,10 @@
 <template>
   <div class="NavBar">
     <img class="coffee" src="./img/coffee.png" alt="" />
-    <a class="btn" href="/index">Home</a>
+    <a class="btn" href="">Home</a>
     <a class="btn" href="/about">About</a>
     <a class="btn" href="/cuisines">Cuisines</a>
-    <a class="btn">Contact Us</a>
+    <a class="btn" href="/contact">Contact Us</a>
   </div>
 </template>
 
