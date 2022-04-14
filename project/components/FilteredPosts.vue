@@ -24,12 +24,6 @@ export default {
 
 <style scoped>
 
-
-img{
-  height: 10rem;
-  width: 10rem;
-}
-
 .h1{
   justify-content: center;
   margin-top: 2rem;
