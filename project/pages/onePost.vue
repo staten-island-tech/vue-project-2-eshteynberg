@@ -3,8 +3,7 @@
 <body>
      <div>
 
-<h1>${title}</h1>
-
+<OnePost></OnePost>
   </div>
 </body>
  
@@ -18,8 +17,9 @@ export default {
 
 <style>
 body{
-    background-color: #CCAB7D;
+    background-color: #E3C49C;
 }
+
 
 
 </style>

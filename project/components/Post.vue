@@ -30,7 +30,7 @@ export default {
 
 <style>
 .Post { 
-    width: 40%;
+    width: 10rem;
     display: flex;
     border-style: solid;
     border: solid #000 1rem;
