@@ -1,7 +1,8 @@
 <template>
-    <div>
-        <NavBar/>
-        <Nuxt/>
+    <div class="parent" >
+<header> <NavBar/></header>
+       <main><Nuxt/></main>
+        
     </div>
 </template>
 
@@ -12,5 +13,33 @@
 </script>
 
 <style >
+
+
+.parent {
+  display: grid;
+  grid-template: auto 1fr auto / auto 1fr auto;
+}
+
+header {
+  padding: 2rem;
+  grid-column: 1 / 4;
+}
+
+.left-side {
+  grid-column: 1 / 2;
+}
+
+main {
+  grid-column: 2 / 3;
+}
+
+.right-side {
+  grid-column: 3 / 4;
+}
+
+footer {
+  grid-column: 1 / 4;
+}
+
 
 </style>
