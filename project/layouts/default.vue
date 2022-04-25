@@ -1,15 +1,12 @@
 <template>
-    <div class="parent" >
-<header> <NavBar/></header>
-       <main><Nuxt/></main>
-        
-    </div>
+  <div class="container">
+    <NavBar />
+    <Nuxt />
+  </div>
 </template>
 
 <script>
-    export default {
-        
-    }
+export default {}
 </script>
 
 <style >
