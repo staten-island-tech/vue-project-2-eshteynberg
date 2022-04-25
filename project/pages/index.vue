@@ -1,20 +1,21 @@
 <template>
-  <div>
+  <div class="container">
     <body>
       <splash class="test"></splash>
-       <h1>pls ignore ugly borders just wanted a guide to where the things stop</h1>
+      <h1>
+        pls ignore ugly borders just wanted a guide to where the things stop
+      </h1>
       <div class="all-posts">
-      
-        <Post class="post"
+        <Post
+          class="post"
           v-for="blogpost in blogposts"
           :key="blogpost.title"
           :title="blogpost.title"
           :desc="blogpost.description"
           :img="blogpost.image"
         ></Post>
-              <quotepg class="quotes"></quotepg>
+        <quotepg class="quotes"></quotepg>
       </div>
-
     </body>
   </div>
 </template>
@@ -40,7 +41,11 @@ export default {
 </script>
 
 <style>
-body {
+.container {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 62.5%;
   background-color: #b2966f;
 }
 
@@ -48,18 +53,15 @@ body {
   object-fit: contain;
 }
 
-
-
-.all-posts{
-
+.all-posts {
   display: grid;
-grid-template-columns: repeat(3, 1fr);
-grid-template-rows: repeat(5, 1fr);
-grid-column-gap: 0px;
-grid-row-gap: 0px;
-justify-content: center;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  justify-content: center;
 }
-.quotes{
+.quotes {
   margin-bottom: 10rem;
 }
 </style>
