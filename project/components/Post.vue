@@ -2,7 +2,7 @@
   <div class="Post">
     <h3 class="title">{{ title }}</h3>
 
-    <img class="image" src="{{" image }} alt="" >
+    <img class="image" src="{{" image }} alt="" />
 
     <h4 class="description">{{ desc }}</h4>
   </div>
