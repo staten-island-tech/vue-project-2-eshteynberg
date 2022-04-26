@@ -1,11 +1,11 @@
 <template>
-    <div class="Post">
-        <h3 class="title">{{ title }}</h3>
+  <div class="Post">
+    <h3 class="title">{{ title }}</h3>
 
-<img class="image" src= {{ image }} alt="">
+    <img class="image" src="{{" image }} alt="" >
 
-        <h4 class="description">{{ desc }}</h4>
-    </div>
+    <h4 class="description">{{ desc }}</h4>
+  </div>
 </template>
 
 <script>
@@ -21,26 +21,24 @@ export default {
       default: 'Description',
     },
     slug: {
-        type: String,
-        default: '/',
+      type: String,
+      default: '/',
     },
   },
 }
 </script>
 
 <style>
-.Post { 
-    width: 10rem;
-    display: flex;
-    border-style: solid;
-    border: solid #000 1rem;
-     background-color: #C09165;
-  flex-direction: row ;
-  outline-color: black;
-  outline: 1rem;
-  flex-wrap: wrap;
+.Post {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 26%;
+  height: 20rem;
+  margin: 1rem auto;
+  align-items: center;
+  border-radius: 3rem;
+  margin-bottom: 5rem;
+  font-size: 2rem;
 }
-
 </style>

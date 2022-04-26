@@ -53,13 +53,6 @@ export default {
   object-fit: contain;
 }
 
-.all-posts {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(5, 1fr);
-  grid-column-gap: 0px;
-  grid-row-gap: 0px;
-}
 .quotes {
   margin-bottom: 10rem;
 }
