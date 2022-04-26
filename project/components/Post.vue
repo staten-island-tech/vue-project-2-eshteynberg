@@ -30,17 +30,23 @@ export default {
 
 <style>
 .Post { 
-    width: 10rem;
     display: flex;
-    border-style: solid;
-    border: solid #000 1rem;
-     background-color: #C09165;
-  flex-direction: row ;
-  outline-color: black;
-  outline: 1rem;
-  flex-wrap: wrap;
-  display: flex;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 26%;
+  height: 20rem;
+  margin: 1rem auto;
+  align-items: center;
+  border-radius: 3rem;
+  margin-bottom: 5rem;
+  font-size: 2rem;
+}
+
+h3{
+  size: 10rem;
+}
+.image {
+  width: 30rem;
 }
 
 </style>
