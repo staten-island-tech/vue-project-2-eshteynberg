@@ -7,3 +7,9 @@
 
   
 </template>
+
+<style>
+.quotePg{
+    width: 117.9375rem;
+}
+</style>
