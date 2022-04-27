@@ -22,8 +22,6 @@ export default {
 
 }
 
-
-
 </script>
 
 <style>
@@ -34,37 +32,93 @@ export default {
 
 .pin-america{
     position: absolute;
-    top: 32rem;
-    left: 23rem;
-    height: 5rem;
-    width: 5rem;
-}
-.pin-korea{
-    position: absolute;
-    top: 32rem;
-    left: 92rem;
-    height: 5rem;
-    width: 5rem;
-}
-.pin-italy{
-    position: absolute;
     top: 30rem;
-    left: 57rem;
-    height: 5rem;
-    width: 5rem;
-}
-.pin-mexico{
-    position: absolute;
-    top: 36rem;
     left: 21.5rem;
     height: 5rem;
     width: 5rem;
+}
+.pin-america:hover{
+  transform: translateY(-0.3rem);
+}
+.pin-america:active {
+  transform: translateY(-1px);
+}
+.pin-america:hover ~ .pin-italy{
+animation: fadein 1s; 
+}
+@keyframes fadeIn {
+  100% {opacity:1;}
+  1% {opacity:0;}
+}
 
+
+.pin-korea{
+    position: absolute;
+    top: 30rem;
+    left: 90.5rem;
+    height: 5rem;
+    width: 5rem;
+}
+.pin-korea:hover{
+  transform: translateY(-0.3rem);
+}
+.pin-korea:active {
+  transform: translateY(-1px);
+}
+.pin-korea:hover ~ .pin-italy{
+animation: fadein 1s; 
+}
+@keyframes fadeIn {
+  100% {opacity:1;}
+  1% {opacity:0;}
+}
+
+.pin-italy{
+    position: absolute;
+    top: 29rem;
+    left: 55.5rem;
+    height: 5rem;
+    width: 5rem;
+    opacity: 100%;
+}
+.pin-italy:hover{
+  transform: translateY(-0.3rem);
+}
+.pin-italy:active {
+  transform: translateY(-1px);
+}
+.pin-italy:hover ~ .pin-italy{
+animation: fadein 1s; 
+}
+@keyframes fadeIn {
+  100% {opacity:1;}
+  1% {opacity:0;}
+}
+
+.pin-mexico{
+    position: absolute;
+    top: 34rem;
+    left: 20rem;
+    height: 5rem;
+    width: 5rem;
+}
+.pin-mexico:hover{
+  transform: translateY(-0.3rem);
+}
+.pin-mexico:active {
+  transform: translateY(-1px);
+}
+.pin-mexico:hover ~ .pin-italy{
+animation: fadein 1s; 
+}
+@keyframes fadeIn {
+  100% {opacity:1;}
+  1% {opacity:0;}
 }
 
 .btn-img-pin {
- height: 2rem;
+ height: 3rem;
  position: relative;
- margin-right: 100rem;
+ margin-right: 98rem;
 }
 </style>
