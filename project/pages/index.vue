@@ -49,7 +49,7 @@ export default {
   padding: 0;
   box-sizing: border-box;
   font-size: 62.5%;
-  background-color: #b2966f;
+  background-color: #B2966F;
 }
 
 .test {

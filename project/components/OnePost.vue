@@ -27,7 +27,7 @@ export default {
 
 <style>
 body{
-    background-color: #E3C49C;
+    background-color: #B2966F;
 }
 
 .placeholder{

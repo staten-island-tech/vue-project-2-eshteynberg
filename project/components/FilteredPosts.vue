@@ -30,7 +30,7 @@ export default {
   margin-top: 2rem;
 }
 .filtered-posts{
-  background-color: #C09165;
+  background-color: #B2966F;
   padding: 20rem;
   max-width: 10rem;
   margin-left: 25rem;
