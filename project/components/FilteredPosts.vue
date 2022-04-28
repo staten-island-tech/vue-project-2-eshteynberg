@@ -4,7 +4,8 @@
   <div class="filtered-posts">
 <h1>Recent Posts</h1>
 <div class="Parent">
-  <div class="div1">
+  <div class="div1
+  ">
     <img src="./img/meat-lasagna-1200.jpg" alt="">
   </div>
 <div class="div2">
