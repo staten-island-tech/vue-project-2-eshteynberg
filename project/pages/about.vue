@@ -1,18 +1,15 @@
 <template>
   <div>
     <body>
-          
-          <button></button>
-          <button></button>
-          <button></button>
-          <button></button>
-  
+<photospg></photospg> 
     </body>
   </div>
 </template>
 
 <script>
+import photospg from '../components/photospg.vue'
 export default {
+  components: { photospg },
 
 }
 </script>
