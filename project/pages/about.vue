@@ -1,24 +1,15 @@
 <template>
   <div>
-    <body>
-          
-          <button></button>
-          <button></button>
-          <button></button>
-          <button></button>
-  
-    </body>
+    <body></body>
   </div>
 </template>
 
 <script>
-export default {
-
-}
+export default {}
 </script>
 
 <style>
-body{
-  background-color:  #B2966F;;
+body {
+  background-color: #b2966f;
 }
 </style>
