@@ -15,6 +15,7 @@
           :img="blogpost.image"
         ></Post>
         <quotepg class="quotes"></quotepg>
+        <photospg class="photos"></photospg>
       </div>
     </body>
   </div>
@@ -22,7 +23,9 @@
 
 
 <script>
+import photospg from '../components/photospg.vue'
 export default {
+  components: { photospg },
   name: 'IndexPage',
   data() {
     return {
@@ -46,7 +49,7 @@ export default {
   padding: 0;
   box-sizing: border-box;
   font-size: 62.5%;
-  background-color: #b2966f;
+  background-color: #B2966F;
 }
 
 .test {
@@ -62,5 +65,12 @@ export default {
 .quotes {
   margin-bottom: 10rem;
 }
+
+.photos {
+  height: 5rem 3rem;
+  width: 10rem;
+  overflow: hidden;
+}
+
 </style>
 

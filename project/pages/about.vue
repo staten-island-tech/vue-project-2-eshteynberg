@@ -5,7 +5,11 @@
 </template>
 
 <script>
-export default {}
+import photospg from '../components/photospg.vue'
+export default {
+  components: { photospg },
+
+}
 </script>
 
 <style>
