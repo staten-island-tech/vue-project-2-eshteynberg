@@ -1,8 +1,6 @@
 <template>
   <div>
-    <body>
-<photospg></photospg> 
-    </body>
+    <body></body>
   </div>
 </template>
 
@@ -15,7 +13,7 @@ export default {
 </script>
 
 <style>
-body{
-  background-color:  #B2966F;;
+body {
+  background-color: #b2966f;
 }
 </style>
