@@ -15,7 +15,7 @@
           :img="blogpost.image"
         ></Post>
         <quotepg class="quotes"></quotepg>
-        <photospg class="photos"></photospg>
+         <photospg></photospg>
       </div>
     </body>
   </div>
