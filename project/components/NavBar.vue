@@ -1,10 +1,12 @@
 <template>
-  <div class="NavBar">
+  <div>
     <img class="coffee" src="./img/coffee.png" alt="" />
-    <a class="btn" href="/">Home</a>
-    <a class="btn" href="/about">About</a>
-    <a class="btn" href="/cuisines">Cuisines</a>
-    <a class="btn" href="/contact">Contact Us</a>
+    <div class="NavBar">
+      <a class="btn" href="/">Home</a>
+      <a class="btn" href="/about">About</a>
+      <a class="btn" href="/cuisines">Cuisines</a>
+      <a class="btn" href="/contact">Contact Us</a>
+    </div>
   </div>
 </template>
 
@@ -12,11 +14,14 @@
 .NavBar {
   background-color: #b2966f;
   height: 6rem;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
 }
 
 .coffee {
   z-index: -1;
-  margin-left: 3rem;
+  margin-left: 4rem;
 }
 
 .btn {
