@@ -1,16 +1,14 @@
 <template>
 <div>
-  <img class="coffee" src="./img/coffee.png" alt="" />
-   <div class="NavBar">
-
-    
-    <a class="btn" href="/">Home</a>
+<div class="NavBar">
+    <a class="btn" href="/">Home</a>    
     <a class="btn" href="/about">About</a>
     <a class="btn" href="/cuisines">Cuisines</a>
     <a class="btn" href="/contact">Contact Us</a>
   </div>
-  </div>
- 
+ <img class="coffee" src="./img/coffee.png" alt="">
+</div>
+
 </template>
 
 <style scoped>
