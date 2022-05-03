@@ -12,7 +12,6 @@
 .NavBar {
   background-color: #b2966f;
   height: 6rem;
-  text-decoration: none;
 }
 
 .coffee {
@@ -31,6 +30,7 @@
   border: #b2966f solid;
   font-size: 1.25rem;
   text-align: center;
+  text-decoration: none;
 }
 </style>
 
