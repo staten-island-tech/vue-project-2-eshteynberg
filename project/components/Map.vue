@@ -11,7 +11,7 @@
 
 
 </div>
-<filtered-posts></filtered-posts>
+
 </div>
 </template>
 
@@ -27,13 +27,13 @@ export default {
 <style>
 .map{
     height: 57.5rem;
-    width: 115.625rem;
+    width: 116.625rem;
 }
 
 .pin-america{
     position: absolute;
     top: 30rem;
-    left: 21.5rem;
+    left: 21.25rem;
     height: 5rem;
     width: 5rem;
 }
@@ -54,8 +54,8 @@ animation: fadein 1s;
 
 .pin-korea{
     position: absolute;
-    top: 30rem;
-    left: 90.5rem;
+    top: 30.5rem;
+    left: 92rem;
     height: 5rem;
     width: 5rem;
 }
@@ -76,7 +76,7 @@ animation: fadein 1s;
 .pin-italy{
     position: absolute;
     top: 29rem;
-    left: 55.5rem;
+    left: 56rem;
     height: 5rem;
     width: 5rem;
     opacity: 100%;
@@ -97,8 +97,8 @@ animation: fadein 1s;
 
 .pin-mexico{
     position: absolute;
-    top: 34rem;
-    left: 20rem;
+    top: 34.25rem;
+    left: 20.5rem;
     height: 5rem;
     width: 5rem;
 }

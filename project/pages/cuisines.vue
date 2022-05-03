@@ -1,6 +1,12 @@
 <template>
-  <Map></Map>
+<div>
+<body>
+    <Map></Map>
+<filtered-posts></filtered-posts>
+</body>
 
+</div>
+  
 </template>
 
 <style>
