@@ -1,6 +1,8 @@
 <template>
   <div>
-    <body></body>
+    <body>
+      <photospg></photospg>
+    </body>
   </div>
 </template>
 
