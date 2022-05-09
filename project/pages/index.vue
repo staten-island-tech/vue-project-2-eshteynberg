@@ -13,6 +13,7 @@
           :title="blogpost.title"
           :desc="blogpost.description"
           :img="blogpost.image"
+          :slug="blogpost.slug"
         ></Post>
         <quotepg class="quotes"></quotepg>
       </div>
@@ -48,7 +49,7 @@ export default {
   padding: 0;
   box-sizing: border-box;
   font-size: 62.5%;
-  background-color: #B2966F;
+  background-color: #b2966f;
 }
 
 .test {
@@ -59,7 +60,6 @@ export default {
   flex-wrap: wrap;
   display: flex;
   justify-content: space-evenly;
-  
 }
 .quotes {
   margin-bottom: 10rem;
@@ -70,6 +70,5 @@ export default {
   width: 10rem;
   overflow: hidden;
 }
-
 </style>
 

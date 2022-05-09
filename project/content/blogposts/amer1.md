@@ -1,4 +1,5 @@
 ---
+slug: amer1
 title: satina sucsk
 description: 'eggs'
 tags: ['post', 'featured', 'american']

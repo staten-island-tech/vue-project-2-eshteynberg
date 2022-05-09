@@ -1,8 +1,9 @@
 <template>
   <div class="Post">
+    <nuxt-link class="link" :to="{ name: 'slug', params: { slug: slug } }"
+      >Link</nuxt-link
+    >
     <h3 class="title">{{ title }}</h3>
-
-    <img class="image" src= {{ image }} alt="" />
 
     <h4 class="description">{{ desc }}</h4>
   </div>
@@ -33,19 +34,24 @@ export default {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  width: 26%;
-  height: 20rem;
-  margin: 1rem auto;
+  width: 28rem;
+  font-size: 3rem;
+  margin: 3.5rem 3rem;
+  padding: 2rem;
   align-items: center;
   border-radius: 3rem;
   margin-bottom: 5rem;
-  font-size: 2rem;
+  box-shadow: 0 0.25rem 0.5rem 0 rgba(0, 0, 0, 0.2),
+    0 0.375rem 1.25rem 0 rgba(0, 0, 0, 0.19);
 }
 
-h3{
+h3 {
   size: 10rem;
 }
 .image {
   width: 30rem;
+}
+.link {
+  text-decoration: none;
 }
 </style>
