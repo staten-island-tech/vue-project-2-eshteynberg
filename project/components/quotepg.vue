@@ -10,6 +10,6 @@
 
 <style>
 .quotePg{
-    width: 117.9375rem;
+      width: 118.938rem;
 }
 </style>

@@ -1,8 +1,7 @@
 <template>
   <div class="Post">
     <nuxt-link class="link" :to="{ name: 'slug', params: { slug: slug } }"
-      >Link</nuxt-link
-    >
+      >Link</nuxt-link>
     <h3 class="title">{{ title }}</h3>
 
     <h4 class="description">{{ desc }}</h4>

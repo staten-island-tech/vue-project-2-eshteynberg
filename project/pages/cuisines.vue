@@ -1,7 +1,7 @@
 <template>
 <div>
 <body>
-    <Map></Map>
+    <Map class="map"></Map>
 <filtered-posts></filtered-posts>
 </body>
 
@@ -13,4 +13,9 @@
 body{
     background-color: #B2966F;
 }
+
+.map{
+    margin-left: -0.55rem;
+}
+
 </style>

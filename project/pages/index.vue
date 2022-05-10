@@ -1,6 +1,9 @@
 <template>
+<body>
+  
+
   <div class="container">
-    <body>
+    
       <img src="/project/components/img/placeholder.png" alt="">
       <splash class="test"></splash>
       <div class="all-posts">
@@ -15,8 +18,8 @@
         ></Post>
         <quotepg class="quotes"></quotepg>
       </div>
-    </body>
-  </div>
+      </div>
+      </body>
 </template>
 
 
@@ -52,6 +55,8 @@ export default {
 
 .test {
   object-fit: contain;
+  margin-left: -1.5rem;
+
 }
 
 .all-posts {
@@ -65,7 +70,6 @@ export default {
 
 .photos {
   height: 5rem 3rem;
-  width: 10rem;
   overflow: hidden;
 }
 </style>
