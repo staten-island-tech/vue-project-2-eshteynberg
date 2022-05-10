@@ -1,15 +1,13 @@
 <template>
   <div class="container">
     <body>
+      <img src="/project/components/img/placeholder.png" alt="">
       <splash class="test"></splash>
-      <h1>
-        pls ignore ugly borders just wanted a guide to where the things stop
-      </h1>
       <div class="all-posts">
         <Post
           class="post"
           v-for="blogpost in blogposts"
-          :key="blogpost.title"
+          :key="blogpost.description"
           :title="blogpost.title"
           :desc="blogpost.description"
           :img="blogpost.image"
