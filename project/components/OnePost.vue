@@ -1,6 +1,6 @@
 <template>
 
-<body>
+
      <div>
 
 <h1 class="blog">Lorem Ipsum</h1>
@@ -15,7 +15,6 @@ It is a long established fact that a reader will be distracted by the readable c
 </h3>
 
   </div>
-</body>
  
 </template>
 

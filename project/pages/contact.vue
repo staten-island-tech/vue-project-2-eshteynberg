@@ -1,10 +1,6 @@
 <template>
   <div>
 
-<body>
-    
-</body>
-
   </div>
 </template>
 

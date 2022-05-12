@@ -1,8 +1,6 @@
 <template>
 <div>
-    <body>
         <img class="splash" src="./img/splash.png" alt="">
-    </body>
 
 </div>
 

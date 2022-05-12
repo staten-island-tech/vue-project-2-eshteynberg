@@ -1,6 +1,5 @@
 <template>
     <div>
-        <body>
             <img class="quotePg" src="./img/This One.png" alt="">
             <img class="ph josh" src="./img/placeholder.png" alt="">
             <img class="ph emily" src="./img/placeholder.png" alt="">
@@ -10,8 +9,6 @@
             <img class="face-emily" src="./img/placeholder.png" alt="">
             <img class="face-satina" src="./img/placeholder.png" alt="">
             <img class="face-whalen" src="./img/placeholder.png" alt="">
-            
-        </body>
     </div>
 
   

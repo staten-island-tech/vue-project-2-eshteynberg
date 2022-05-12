@@ -1,10 +1,7 @@
 <template>
 <div>
-<body>
     <Map class="map"></Map>
 <filtered-posts></filtered-posts>
-</body>
-
 </div>
   
 </template>
