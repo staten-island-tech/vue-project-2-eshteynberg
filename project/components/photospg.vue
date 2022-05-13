@@ -34,17 +34,17 @@
 }
 .josh{
     position: absolute;
-    top: 34.25rem;
+    top: 16rem;
     left: 20.5rem;
-    height: 5rem;
-    width: 5rem;
+    height: 15rem;
+    width: 15rem;
 }
 .emily{
     position: absolute;
     top: 34.25rem;
-    left: 20.5rem;
-    height: 5rem;
-    width: 5rem;
+    left: 40rem;
+    height: 15rem;
+    width: 15rem;
 }
 .whalen{
     position: absolute;
