@@ -6,6 +6,7 @@
     
       <img src="/project/components/img/placeholder.png" alt="">
       <splash class="test"></splash>
+      <featured></featured>
       <div class="all-posts">
         <Post
           class="post"

@@ -8,7 +8,7 @@
 
 <style>
 body{
-    background-color: #B2966F;
+    background-color: #E3C49C;
 }
 
 .map{

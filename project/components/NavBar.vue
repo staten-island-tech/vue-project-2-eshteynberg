@@ -1,7 +1,7 @@
 <template>
   <div>
-    <img class="coffee" src="./img/coffee.png" alt="" />
     <div class="NavBar">
+          <img class="coffee" src="./img/coffee.png" alt="" />
       <a class="btn" href="/">Home</a>
       <a class="btn" href="/about">About</a>
       <a class="btn" href="/cuisines">Cuisines</a>
@@ -37,6 +37,15 @@
   text-align: center;
   text-decoration: none;
 }
+
+div{
+position: sticky;
+top: 0;
+  box-shadow: 1px 1px 2px 1px #AE936A
+  
+}
+
+
 </style>
 
 <script>
