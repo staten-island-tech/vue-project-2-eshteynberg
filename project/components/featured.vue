@@ -1,20 +1,28 @@
 <template>
     <div class="post-box">
-<h1>Posts</h1>
+<h1 class="posts">Posts</h1>
     </div>
 </template>
 
 <style scoped>
 
 .post-box{
-    position: absolute;
-width: 538px;
-height: 517px;
-left: 0px;
-top: 60rem;
 
+display: flex;
+width: 20rem;
+height: 517px;
 background: #B2966F;
-padding: 20rem;
-box-shadow: 1px 2px 5px 3px black;
+padding: 5rem;
+padding-top: 18rem;
+padding-left: 0.1rem;
+
+}
+
+.posts{
+background-color: #B2966F;
+color: white;
+box-shadow: 1px 2px 5px 3px gray;
+width: 25rem;
+height: 15rem;
 }
 </style>
