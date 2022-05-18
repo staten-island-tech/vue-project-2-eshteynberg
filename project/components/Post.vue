@@ -17,7 +17,7 @@ export default {
     },
     description: {
       type: String,
-      default: 'description',
+      default: 'h2',
     },
     body: {
       type: String,

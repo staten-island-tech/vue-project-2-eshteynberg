@@ -17,6 +17,7 @@
   text-decoration: none;
   display: flex;
   align-items: center;
+  width: 100%;
 }
 
 .coffee {
@@ -41,7 +42,7 @@
 div{
 position: sticky;
 top: 0;
-  box-shadow: 1px 1px 2px 1px #AE936A
+  margin-left: -1.5rem;
   
 }
 

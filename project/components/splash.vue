@@ -8,7 +8,7 @@
 
 <style scoped>
 .splash{ 
-    width: 118.938rem;
+    width: 120rem;
     height: 55rem;
     background-size: cover;
 }
