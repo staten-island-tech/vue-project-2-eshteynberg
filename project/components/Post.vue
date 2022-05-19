@@ -3,7 +3,7 @@
     <nuxt-link class="link" :to="{ name: 'slug', params: { slug: slug } }"
       >{{ title }}</nuxt-link>
 
-    <p>{{ description }}</p>
+    <h2>{{ description }}</h2>
   </div>
 </template>
 
@@ -17,7 +17,7 @@ export default {
     },
     description: {
       type: String,
-      default: 'h2',
+      default: 'description',
     },
     body: {
       type: String,
@@ -28,6 +28,9 @@ export default {
       default: '/',
     },
   },
+  data() {
+
+  }
 };
 
 </script>
