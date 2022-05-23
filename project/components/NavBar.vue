@@ -18,10 +18,11 @@
   display: flex;
   align-items: center;
   width: 100%;
+  z-index: 10;
 }
 
 .coffee {
-  z-index: -1;
+  z-index: 10;
   margin-left: 4rem;
 }
 
@@ -37,12 +38,14 @@
   font-size: 1.25rem;
   text-align: center;
   text-decoration: none;
+  z-index: 10;
 }
 
 div{
 position: sticky;
 top: 0;
   margin-left: -1.5rem;
+  z-index: 10;
   
 }
 

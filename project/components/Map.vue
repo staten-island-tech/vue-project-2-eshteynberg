@@ -44,11 +44,11 @@ export default {
   transform: translateY(-1px);
 }
 .pin-america:hover ~ .pin-italy{
-animation: fadein 1s; 
+animation: fadeIn 1s;
 }
 @keyframes fadeIn {
-  100% {opacity:1;}
-  1% {opacity:0;}
+  0% {opacity:1;}
+  100% {opacity:0;}
 }
 
 
@@ -66,11 +66,11 @@ animation: fadein 1s;
   transform: translateY(-1px);
 }
 .pin-korea:hover ~ .pin-italy{
-animation: fadein 1s; 
+animation: fadeIn 1s; 
 }
 @keyframes fadeIn {
-  100% {opacity:1;}
-  1% {opacity:0;}
+  0% {opacity:100%;}
+  100% {opacity:0%;}
 }
 
 .pin-italy{
@@ -79,7 +79,7 @@ animation: fadein 1s;
     left: 56rem;
     height: 5rem;
     width: 5rem;
-    opacity: 100%;
+
 }
 .pin-italy:hover{
   transform: translateY(-0.3rem);
@@ -87,12 +87,12 @@ animation: fadein 1s;
 .pin-italy:active {
   transform: translateY(-1px);
 }
-.pin-italy:hover ~ .pin-italy{
-animation: fadein 1s; 
+.pin-italy:hover ~ .pin-america{
+animation: fadeIn 1s;
 }
 @keyframes fadeIn {
-  100% {opacity:1;}
-  1% {opacity:0;}
+  0% {opacity:1;}
+  100% {opacity:0;}
 }
 
 .pin-mexico{
@@ -109,11 +109,11 @@ animation: fadein 1s;
   transform: translateY(-1px);
 }
 .pin-mexico:hover ~ .pin-italy{
-animation: fadein 1s; 
+animation: fadeIn 1s; 
 }
 @keyframes fadeIn {
-  100% {opacity:1;}
-  1% {opacity:0;}
+  0% {opacity:1;}
+  100% {opacity:0;}
 }
 
 .btn-img-pin {

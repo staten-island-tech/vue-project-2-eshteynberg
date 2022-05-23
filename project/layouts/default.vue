@@ -16,4 +16,8 @@ export default {}
   grid-template: auto 1fr auto / auto 1fr auto;
 }
 
+.container{ 
+  z-index: 10000;
+}
+
 </style>
