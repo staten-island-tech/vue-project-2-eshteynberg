@@ -1,15 +1,15 @@
 <template>
     <div>
         
-            <img class="info-josh" src="./img/placeholder.png" alt="">
-            <img class="info-emily" src="./img/placeholder.png" alt="">
-            <img class="info-satina" src="./img/placeholder.png" alt="">
-            <img class="info-whalen" src="./img/placeholder.png" alt="">
+            <img class="info-josh" src="./img/chalk.png" alt="">
+            <img class="info-emily" src="./img/coffee.png" alt="">
+            <img class="info-satina" src="./img/dots.png" alt="">
+            <img class="info-whalen" src="./img/pin.png" alt="">
             <img class="quotePg" src="./img/This One.png" alt="">
-            <a class="josh"  alt=""><img class="ph" src="./img/placeholder.png" alt=""></a>
-            <a class="emily" alt=""><img class="ph" src="./img/placeholder.png" alt=""></a>
-            <a class="satina" alt=""><img class="ph" src="./img/placeholder.png" alt=""></a>
-            <a class="whalen" alt=""><img class="ph" src="./img/placeholder.png" alt=""></a>
+            <a class="josh" href="" alt=""><img class="ph" src="./img/placeholder.png" alt=""></a>
+            <a class="emily" href="" alt=""><img class="ph" src="./img/placeholder.png" alt=""></a>
+            <a class="satina" href="" alt=""><img class="ph" src="./img/placeholder.png" alt=""></a>
+            <a class="whalen" href="" alt=""><img class="ph" src="./img/placeholder.png" alt=""></a>
             
     </div>
 
@@ -93,6 +93,7 @@
     position: absolute;
     margin-top: 3rem;
     margin-left: 39rem;
+
 }
 .info-whalen{
      width: 15rem;
@@ -103,8 +104,8 @@
 }
 
 @keyframes fadeIn {
-  0% {opacity:0;}
-  100% {opacity:1;}
+  0% {opacity:0%;}
+  100% {opacity:100%;}
 }
 
 </style>
