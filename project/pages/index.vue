@@ -1,10 +1,7 @@
 <template>
-<body>
-  
-
-  <div class="container">
-    
-      <img src="/project/components/img/placeholder.png" alt="">
+  <body>
+    <div class="container">
+      <img src="/project/components/img/placeholder.png" alt="" />
       <splash class="test"></splash>
       <featured></featured>
       <div class="all-posts">
@@ -19,8 +16,8 @@
         ></Post>
         <quotepg class="quotes"></quotepg>
       </div>
-      </div>
-      </body>
+    </div>
+  </body>
 </template>
 
 
@@ -40,7 +37,9 @@ export default {
     }
   },
   async fetch() {
-    this.blogposts = await this.$content('blogposts').fetch()
+    this.blogposts = await this.$content('blogposts')
+      .sortBy('slug', 'desc')
+      .fetch()
   },
 }
 </script>
@@ -57,7 +56,6 @@ export default {
 .test {
   object-fit: contain;
   margin-left: -1.5rem;
-
 }
 
 .all-posts {
