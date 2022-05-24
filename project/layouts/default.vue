@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <NavBar />
+    <NavBar class="nav" />
     <Nuxt />
   </div>
 </template>
@@ -10,7 +10,7 @@ export default {}
 </script>
 
 <style >
-
+/* 
 .parent {
   display: grid;
   grid-template: auto 1fr auto / auto 1fr auto;
@@ -18,6 +18,9 @@ export default {}
 
 .container{ 
   z-index: 10000;
+} */
+.nav{
+  justify-items: center;
+  padding-right: auto;
 }
-
 </style>

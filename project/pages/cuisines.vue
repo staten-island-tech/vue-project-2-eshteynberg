@@ -1,6 +1,6 @@
 <template>
 <div>
-    <!-- <Map class="map"></Map> -->
+<Map class="map"></Map>
 <filtered-posts></filtered-posts>
 </div>
   
