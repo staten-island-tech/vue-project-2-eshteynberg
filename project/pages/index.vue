@@ -1,47 +1,75 @@
 <template>
-  <div>
-    <Head></Head>
-    <Featured :blogs="blogs"></Featured>
-  </div>
+  <body>
+    <div class="container">
+      <img src="/project/components/img/placeholder.png" alt="" />
+      <splash class="test"></splash>
+      <featured></featured>
+      <div class="all-posts">
+        <Post
+          class="post"
+          v-for="blogpost in blogposts"
+          :key="blogpost.description"
+          :title="blogpost.title"
+          :desc="blogpost.description"
+          :img="blogpost.image"
+          :slug="blogpost.slug"
+        ></Post>
+        <quotepg class="quotes"></quotepg>
+      </div>
+    </div>
+  </body>
 </template>
 
+
 <script>
+import photospg from '../components/photospg.vue'
 export default {
+  components: { photospg },
+  name: 'IndexPage',
   data() {
     return {
-      blogs: [
-        {
-          number: 2,
-          title: 'best dumplings',
-          cuisine: 'Chinese',
-          desc: 'fefefegf',
-          location: 'Brooklyn',
-          text: 'rggfhggjjgj',
-          img: 'https://images.unsplash.com/photo-1496116218417-1a781b1c416c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8Y2hpbmVzZSUyMGR1bXBsaW5nc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60',
-        },
-        {
-          number: 3,
-          title: 'best kebab',
-          cuisine: 'Middle Eastern',
-          desc: 'rgrgrg',
-          text: 'rggfhggjjgj',
-          location: 'Manhattan',
-          img: 'https://images.unsplash.com/photo-1595777216528-071e0127ccbf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8a2ViYWJ8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60',
-        },
-        {
-          number: 4,
-          title: 'my favorite ramen',
-          cuisine: 'Japanese',
-          desc: 'eregregt',
-          text: 'rggfhggjjgj',
-          location: 'Queens',
-          img: 'https://images.unsplash.com/photo-1591814468924-caf88d1232e1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8cmFtZW58ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60',
-        },
-      ],
+      blogposts: [],
     }
+  },
+  head() {
+    return {
+      title: `Blog`,
+    }
+  },
+  async fetch() {
+    this.blogposts = await this.$content('blogposts')
+      .sortBy('slug', 'desc')
+      .fetch()
   },
 }
 </script>
 
 <style>
+.container {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 62.5%;
+  background-color: #b2966f;
+}
+
+.test {
+  object-fit: contain;
+  margin-left: -1.5rem;
+}
+
+.all-posts {
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-evenly;
+}
+.quotes {
+  margin-bottom: 10rem;
+}
+
+.photos {
+  height: 5rem 3rem;
+  overflow: hidden;
+}
 </style>
+
