@@ -1,5 +1,5 @@
 ---
-slug: amer1
+slug: first-post
 title: satina sucsk
 description: eggs
 tags: ['post', 'featured', 'american']
