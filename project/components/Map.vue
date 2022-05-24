@@ -1,6 +1,5 @@
 <template>
   <div>
-    <img class="map" src="./img/map.png" alt="" />
 
 <img class="map" src="./img/map.png" alt="">
 
@@ -30,7 +29,7 @@ export default {
 <style>
 .map {
   height: 57.5rem;
-  width: 116.625rem;
+  width: 120rem;
 }
 
 .pin-america {
@@ -81,8 +80,11 @@ animation: fadeIn 1s;
 .pin-mexico:active {
   transform: translateY(-1px);
 }
+.pin-mexico:hover ~ .hov-mex{
 animation: fadeIn 1s; 
 }
+
+.pin-italy{
     position: absolute;
     top: 29rem;
     left: 56rem;
