@@ -4,10 +4,10 @@
 <img class="map" src="./img/map.png" alt="">
 
 <div class="pin">
-    <a class="pin-america" href="../pages/amer.vue"><img class="btn-img-pin" src="./img/pin.png" alt=""></a>
-    <a class="pin-korea" href="../pages/korea.vue"><img class="btn-img-pin" src="./img/pin.png" alt=""></a>
-    <a class="pin-italy" href="../pages/italy.vue"><img class="btn-img-pin" src="./img/pin.png" alt=""></a>
-    <a class="pin-mexico" href="../pages/mex.vue"><img class="btn-img-pin" src="./img/pin.png" alt=""></a>
+    <a class="pin-america" href="/amer"><img class="btn-img-pin" src="./img/pin.png" alt=""></a>
+    <a class="pin-korea" href="/korea"><img class="btn-img-pin" src="./img/pin.png" alt=""></a>
+    <a class="pin-italy" href="/italy"><img class="btn-img-pin" src="./img/pin.png" alt=""></a>
+    <a class="pin-mexico" href="/mex"><img class="btn-img-pin" src="./img/pin.png" alt=""></a>
     <img class="hov-amer" src="./img/placeholder.png" alt="">
     <img class="hov-kor" src="./img/placeholder.png" alt="">
     <img class="hov-ita" src="./img/placeholder.png" alt="">
