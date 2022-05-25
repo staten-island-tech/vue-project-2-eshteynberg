@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>Back to <a href="/cuisines">the map</a></h1>
+    <h1>Back to <a href="./cuisines.vue">the map</a></h1>
   </div>
 </template>
 

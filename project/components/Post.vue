@@ -4,7 +4,7 @@
       title
     }}</nuxt-link>
 
-    <!-- <img src="{{ ubiuibuibbbu }}" alt=""> -->
+    <h2>{{ description }}</h2>
   </div>
 </template>
 

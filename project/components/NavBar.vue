@@ -18,7 +18,6 @@
   align-items: center;
   width: 100%;
   z-index: 10;
-  padding-right: 2rem;
 }
 
 .coffee {
