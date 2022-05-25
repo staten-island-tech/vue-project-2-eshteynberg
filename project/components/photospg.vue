@@ -49,7 +49,8 @@
     width: 15rem;
 }
 .josh:hover ~ .info-josh{ 
-    animation: fadeIn 1s;
+    /* animation: fadeIn 1s; */
+      transform: translateY(-0.3rem);
 }
 .emily{
     position: absolute;

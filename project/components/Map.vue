@@ -2,6 +2,8 @@
   <div>
     <img class="map" src="./img/map.png" alt="" />
 
+    <img class="map" src="./img/map.png" alt="" />
+
     <div class="pin">
       <a class="pin-america" href="/amer"
         ><img class="btn-img-pin" src="./img/pin.png" alt=""
@@ -50,7 +52,8 @@ export default {
   transform: translateY(-1px);
 }
 .pin-america:hover ~ .hov-amer {
-  animation: fadeIn 1s infinite;
+  animation: fadeIn 1s;
+  animation-fill-mode: forwards;
 }
 
 .pin-korea {
@@ -68,6 +71,7 @@ export default {
 }
 .pin-korea:hover ~ .hov-kor {
   animation: fadeIn 1s;
+  animation-fill-mode: forwards;
 }
 
 .pin-mexico {
@@ -85,6 +89,7 @@ export default {
 }
 .pin-mexico:hover ~ .hov-mex {
   animation: fadeIn 1s;
+  animation-fill-mode: forwards;
 }
 
 .pin-italy {
@@ -102,6 +107,7 @@ export default {
 }
 .pin-italy:hover ~ .hov-ita {
   animation: fadeIn 1s;
+  animation-fill-mode: forwards;
 }
 
 .hov-amer {
