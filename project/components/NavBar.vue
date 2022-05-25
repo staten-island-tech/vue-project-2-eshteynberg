@@ -28,18 +28,22 @@
 
 .btn {
   display: inline-block;
-  background-color: #b2966f;
-  color: white;
   flex-flow: row;
   justify-content: space-between;
   margin-bottom: 1rem;
   margin-left: 18rem;
-  border: #b2966f solid;
   font-size: 1.25rem;
   text-align: center;
   text-decoration: none;
   z-index: 10;
 }
+.btn:hover {
+  transform: translateY(-0.3rem);
+}
+.btn:active {
+  transform: translateY(-1px);
+}
+
 
 div{
 position: sticky;

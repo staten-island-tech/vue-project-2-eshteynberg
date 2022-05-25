@@ -1,9 +1,6 @@
 <template>
   <div>
     <img class="map" src="./img/map.png" alt="" />
-
-    <img class="map" src="./img/map.png" alt="" />
-
     <div class="pin">
       <a class="pin-america" href="/amer"
         ><img class="btn-img-pin" src="./img/pin.png" alt=""
