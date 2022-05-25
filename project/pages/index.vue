@@ -46,16 +46,18 @@ console.log(this)
 </script>
 
 <style>
-
+html, body, *{
+  margin: 0 ;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
 body{ 
     background-color: #b2966f;
 }
 
 .container {
-  margin: 0 auto;
-  padding: 0;
-  box-sizing: border-box;
-  font-size: 62.5%;
+  
 
   margin-left: -2.1rem;
 }
