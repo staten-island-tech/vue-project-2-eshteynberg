@@ -1,7 +1,8 @@
 <template>
   <div class="Post">
-    <nuxt-link class="link" :to="{ name: 'slug', params: { slug: slug } }"
-      >{{ title }}</nuxt-link>
+    <nuxt-link class="link" :to="{ name: 'slug', params: { slug: slug } }">{{
+      title
+    }}</nuxt-link>
 
     <h2>{{ description }}</h2>
   </div>
@@ -28,11 +29,8 @@ export default {
       default: '/',
     },
   },
-  data() {
-
-  }
-};
-
+  data() {},
+}
 </script>
 
 <style>

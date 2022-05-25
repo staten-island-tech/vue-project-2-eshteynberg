@@ -1,22 +1,26 @@
 <template>
   <div>
+    <img class="map" src="./img/map.png" alt="" />
 
-<img class="map" src="./img/map.png" alt="">
-
-<div class="pin">
-    <a class="pin-america" href="../pages/amer.vue"><img class="btn-img-pin" src="./img/pin.png" alt=""></a>
-    <a class="pin-korea" href="../pages/korea.vue"><img class="btn-img-pin" src="./img/pin.png" alt=""></a>
-    <a class="pin-italy" href="../pages/italy.vue"><img class="btn-img-pin" src="./img/pin.png" alt=""></a>
-    <a class="pin-mexico" href="../pages/mex.vue"><img class="btn-img-pin" src="./img/pin.png" alt=""></a>
-    <img class="hov-amer" src="./img/placeholder.png" alt="">
-    <img class="hov-kor" src="./img/placeholder.png" alt="">
-    <img class="hov-ita" src="./img/placeholder.png" alt="">
-    <img class="hov-mex" src="./img/placeholder.png" alt="">
-
-
-</div>
-
-</div>
+    <div class="pin">
+      <a class="pin-america" href="/amer"
+        ><img class="btn-img-pin" src="./img/pin.png" alt=""
+      /></a>
+      <a class="pin-korea" href="/korea"
+        ><img class="btn-img-pin" src="./img/pin.png" alt=""
+      /></a>
+      <a class="pin-italy" href="/italy"
+        ><img class="btn-img-pin" src="./img/pin.png" alt=""
+      /></a>
+      <a class="pin-mexico" href="/mex"
+        ><img class="btn-img-pin" src="./img/pin.png" alt=""
+      /></a>
+      <img class="hov-amer" src="./img/placeholder.png" alt="" />
+      <img class="hov-kor" src="./img/placeholder.png" alt="" />
+      <img class="hov-ita" src="./img/placeholder.png" alt="" />
+      <img class="hov-mex" src="./img/placeholder.png" alt="" />
+    </div>
+  </div>
 </template>
 
 <script>
@@ -27,7 +31,6 @@ export default {
 </script>
 
 <style>
-
 .map {
   height: 57.5rem;
   width: 120rem;
@@ -46,16 +49,16 @@ export default {
 .pin-america:active {
   transform: translateY(-1px);
 }
-.pin-america:hover ~ .hov-amer{
-animation: fadeIn 1s infinite;
+.pin-america:hover ~ .hov-amer {
+  animation: fadeIn 1s infinite;
 }
 
-.pin-korea{
-    position: absolute;
-    top: 30.5rem;
-    left: 92rem;
-    height: 5rem;
-    width: 5rem;
+.pin-korea {
+  position: absolute;
+  top: 30.5rem;
+  left: 92rem;
+  height: 5rem;
+  width: 5rem;
 }
 .pin-korea:hover {
   transform: translateY(-0.3rem);
@@ -63,17 +66,16 @@ animation: fadeIn 1s infinite;
 .pin-korea:active {
   transform: translateY(-1px);
 }
-.pin-korea:hover ~ .hov-kor{
-animation: fadeIn 1s; 
+.pin-korea:hover ~ .hov-kor {
+  animation: fadeIn 1s;
 }
 
-
-.pin-mexico{
-    position: absolute;
-    top: 33.75rem;
-    left: 19rem;
-    height: 5rem;
-    width: 5rem;
+.pin-mexico {
+  position: absolute;
+  top: 33.75rem;
+  left: 19rem;
+  height: 5rem;
+  width: 5rem;
 }
 .pin-mexico:hover {
   transform: translateY(-0.3rem);
@@ -81,57 +83,57 @@ animation: fadeIn 1s;
 .pin-mexico:active {
   transform: translateY(-1px);
 }
-.pin-mexico:hover ~ .hov-mex{
-animation: fadeIn 1s; 
+.pin-mexico:hover ~ .hov-mex {
+  animation: fadeIn 1s;
 }
 
-.pin-italy{
-    position: absolute;
-    top: 29rem;
-    left: 56rem;
-    height: 5rem;
-    width: 5rem;
+.pin-italy {
+  position: absolute;
+  top: 29rem;
+  left: 56rem;
+  height: 5rem;
+  width: 5rem;
 }
-.pin-italy:hover{
+.pin-italy:hover {
   transform: translateY(-0.3rem);
 }
 .pin-italy:active {
   transform: translateY(-1px);
 }
-.pin-italy:hover ~ .hov-ita{
-animation: fadeIn 1s;
+.pin-italy:hover ~ .hov-ita {
+  animation: fadeIn 1s;
 }
 
-.hov-amer{ 
+.hov-amer {
   height: 5rem;
   width: 5rem;
   position: absolute;
-    top: 24.5rem;
-    left: 21.25rem;
+  top: 24.5rem;
+  left: 21.25rem;
   opacity: 0;
 }
-.hov-kor{ 
+.hov-kor {
   height: 5rem;
   width: 5rem;
   position: absolute;
-    top: 25rem;
-    left: 92rem;
+  top: 25rem;
+  left: 92rem;
   opacity: 0;
 }
-.hov-ita{ 
+.hov-ita {
   height: 5rem;
   width: 5rem;
   position: absolute;
-    top: 23.5rem;
-    left: 56rem;
+  top: 23.5rem;
+  left: 56rem;
   opacity: 0;
 }
-.hov-mex{ 
+.hov-mex {
   height: 5rem;
   width: 5rem;
   position: absolute;
-    top: 28.75rem;
-    left: 15rem;
+  top: 28.75rem;
+  left: 15rem;
   opacity: 0;
 }
 

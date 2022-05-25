@@ -1,10 +1,21 @@
-<template></template>
+<template>
+  <body>
+    <div class="all-posts">
+      <Post></Post>
+    </div>
+  </body>
+</template>
 
 <script>
 export default {
+  data() {
+    return {
+      blogposts: [],
+    }
+  },
   async fetch() {
     this.blogposts = await this.$content('blogposts')
-      .sortBy({ tags: { $containsAny: ['italy'] } })
+      .where({ tags: 'italian' })
       .fetch()
   },
 }
