@@ -47,7 +47,8 @@ export default {
   transform: translateY(-1px);
 }
 .pin-america:hover ~ .hov-amer{
-animation: fadeIn 1s infinite;
+animation: fadeIn 1s;
+animation-fill-mode: forwards;
 }
 
 .pin-korea{
@@ -65,6 +66,7 @@ animation: fadeIn 1s infinite;
 }
 .pin-korea:hover ~ .hov-kor{
 animation: fadeIn 1s; 
+animation-fill-mode: forwards;
 }
 
 
@@ -83,6 +85,7 @@ animation: fadeIn 1s;
 }
 .pin-mexico:hover ~ .hov-mex{
 animation: fadeIn 1s; 
+animation-fill-mode: forwards;
 }
 
 .pin-italy{
@@ -100,6 +103,7 @@ animation: fadeIn 1s;
 }
 .pin-italy:hover ~ .hov-ita{
 animation: fadeIn 1s;
+animation-fill-mode: forwards;
 }
 
 .hov-amer{ 
