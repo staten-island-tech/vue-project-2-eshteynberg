@@ -5,6 +5,7 @@
     }}</nuxt-link>
 
     <h2>{{ description }}</h2>
+    <img class="image" :src="image" alt="test" />
   </div>
 </template>
 
@@ -28,8 +29,10 @@ export default {
       type: String,
       default: '/',
     },
+    image: {
+      type: String,
+    },
   },
-  data() {},
 }
 </script>
 

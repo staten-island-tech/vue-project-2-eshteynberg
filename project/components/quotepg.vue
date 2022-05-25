@@ -1,15 +1,13 @@
 <template>
-    <div>
-        <body>
-            <img class="quotePg" src="./img/Quote page.png" alt="">
-        </body>
-    </div>
-
-  
+  <div>
+    <body>
+      <img class="quotePg" src="/img/Quote page.png" alt="" />
+    </body>
+  </div>
 </template>
 
 <style>
-.quotePg{
-      width: 118.938rem;
+.quotePg {
+  width: 118.938rem;
 }
 </style>
