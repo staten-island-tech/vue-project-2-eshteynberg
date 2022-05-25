@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Map class="map"></Map>
+    <Map class="map-component"></Map>
     <filtered-posts></filtered-posts>
   </div>
 </template>
@@ -10,7 +10,7 @@ body {
   background-color: #e3c49c;
 }
 
-.map {
-  margin-left: -0.55rem;
+.map-component{
+  margin-left: -0.5rem;
 }
 </style>

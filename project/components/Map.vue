@@ -32,7 +32,7 @@ export default {
 <style>
 .map {
   height: 57.5rem;
-  width: 120rem;
+  width: 1903px;
 }
 
 .pin-america {
@@ -152,6 +152,5 @@ export default {
 .btn-img-pin {
   height: 3rem;
   position: relative;
-  margin-right: 98rem;
 }
 </style>
