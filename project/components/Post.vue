@@ -3,7 +3,7 @@
     <nuxt-link class="link" :to="{ name: 'slug', params: { slug: slug } }"
       >{{ title }}</nuxt-link>
 
-    <img src="{{  }}" alt="">
+    <!-- <img src="{{ ubiuibuibbbu }}" alt=""> -->
   </div>
 </template>
 
