@@ -1,7 +1,6 @@
 <template>
   <body>
     <div class="container">
-      <img src="/project/components/img/placeholder.png" alt="" />
       <splash class="test"></splash>
       <featured></featured>
       <div class="all-posts">
@@ -23,6 +22,7 @@
 
 <script>
 import photospg from '../components/photospg.vue'
+import _slugVue from './_slug.vue'
 export default {
   components: { photospg },
   name: 'IndexPage',
@@ -42,20 +42,26 @@ export default {
       .fetch()
   },
 }
+console.log(this)
 </script>
 
 <style>
+
+body{ 
+    background-color: #b2966f;
+}
+
 .container {
   margin: 0 auto;
   padding: 0;
   box-sizing: border-box;
   font-size: 62.5%;
-  background-color: #b2966f;
+
+  margin-left: -2.1rem;
 }
 
 .test {
   object-fit: contain;
-  margin-left: -1.5rem;
 }
 
 .all-posts {
