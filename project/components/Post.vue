@@ -52,14 +52,22 @@ export default {
     0 0.375rem 1.25rem 0 rgba(0, 0, 0, 0.19);
 }
 
-h3 {
-  size: 10rem;
+h2 {
+  font-size: 2rem;
+  text-align: center;
 }
 .image {
-  width: 30rem;
+  width: 24rem;
+  border-radius: 3rem;
+  border: solid black;
+  transition: 300ms;
+}
+.image:hover {
+  transform: scale(1.1);
 }
 .link {
   text-decoration: none;
-  margin-top: 10rem;
+  margin-top: 5rem;
+  color: black;
 }
 </style>

@@ -19,7 +19,7 @@ export default {}
 .container{ 
   z-index: 10000;
 } */
-.nav{
+.nav {
   justify-items: center;
   padding-right: auto;
 }
