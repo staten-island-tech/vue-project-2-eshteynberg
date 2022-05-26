@@ -15,10 +15,10 @@
       <a class="pin-mexico" href="/mex"
         ><img class="btn-img-pin" src="/img/pin.png" alt=""
       /></a>
-      <img class="hov-amer" src="/img/placeholder.png" alt="" />
-      <img class="hov-kor" src="/img/placeholder.png" alt="" />
-      <img class="hov-ita" src="/img/placeholder.png" alt="" />
-      <img class="hov-mex" src="/img/placeholder.png" alt="" />
+      <img class="hov-amer" src="/img/american food.jpg" alt="" />
+      <img class="hov-kor" src="/img/korean food.jpg" alt="" />
+      <img class="hov-ita" src="/img/italian food.jpg" alt="" />
+      <img class="hov-mex" src="/img/mexican food.jpg" alt="" />
     </div>
   </div>
 </template>
@@ -31,18 +31,7 @@ export default {
 </script>
 
 <style>
-.map {
-  height: 57.5rem;
-  width: 1903px;
-}
 
-.pin-america {
-  position: absolute;
-  top: 30rem;
-  left: 21.25rem;
-  height: 5rem;
-  width: 5rem;
-}
 .pin-america:hover {
   transform: translateY(-0.3rem);
 }
@@ -54,13 +43,6 @@ export default {
   animation-fill-mode: forwards;
 }
 
-.pin-korea {
-  position: absolute;
-  top: 30.5rem;
-  left: 92rem;
-  height: 5rem;
-  width: 5rem;
-}
 .pin-korea:hover {
   transform: translateY(-0.3rem);
 }
@@ -72,13 +54,6 @@ export default {
   animation-fill-mode: forwards;
 }
 
-.pin-mexico {
-  position: absolute;
-  top: 33.75rem;
-  left: 19rem;
-  height: 5rem;
-  width: 5rem;
-}
 .pin-mexico:hover {
   transform: translateY(-0.3rem);
 }
@@ -90,13 +65,6 @@ export default {
   animation-fill-mode: forwards;
 }
 
-.pin-italy {
-  position: absolute;
-  top: 29rem;
-  left: 56rem;
-  height: 5rem;
-  width: 5rem;
-}
 .pin-italy:hover {
   transform: translateY(-0.3rem);
 }
@@ -106,6 +74,53 @@ export default {
 .pin-italy:hover ~ .hov-ita {
   animation: fadeIn 1s;
   animation-fill-mode: forwards;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@media (max-width: 20000px) {
+  .map {
+  height: 57.5rem;
+  width: 1903px;
+}
+
+.pin-america {
+  position: absolute;
+  top: 30rem;
+  left: 22.25rem;
+  height: 5rem;
+  width: 5rem;
+}
+
+.pin-korea {
+  position: absolute;
+  top: 30.5rem;
+  left: 93rem;
+  height: 5rem;
+  width: 5rem;
+}
+
+.pin-mexico {
+  position: absolute;
+  top: 33.75rem;
+  left: 20.5rem;
+  height: 5rem;
+  width: 5rem;
+}
+
+.pin-italy {
+  position: absolute;
+  top: 29rem;
+  left: 57rem;
+  height: 5rem;
+  width: 5rem;
 }
 
 .hov-amer {
@@ -141,17 +156,163 @@ export default {
   opacity: 0;
 }
 
-@keyframes fadeIn {
-  0% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
-  }
-}
-
 .btn-img-pin {
   height: 3rem;
   position: relative;
 }
+}
+
+@media (max-width: 768px) {
+  .map {
+    max-width: 47rem;
+  height: 27rem;
+}
+
+.pin-america {
+  position: absolute;
+  top: 18rem;
+  left: 8rem;
+  height: 5rem;
+  width: 5rem;
+}
+
+.pin-korea {
+  position: absolute;
+  top: 18rem;
+  left: 36.5rem;
+  height: 5rem;
+  width: 5rem;
+}
+
+.pin-mexico {
+  position: absolute;
+  top: 19.75rem;
+  left: 7.5rem;
+  height: 5rem;
+  width: 5rem;
+}
+
+.pin-italy {
+  position: absolute;
+  top: 17.25rem;
+  left: 22rem;
+  height: 5rem;
+  width: 5rem;
+}
+
+.hov-amer {
+  height: 5rem;
+  width: 5rem;
+  position: absolute;
+  top: 24.5rem;
+  left: 21.25rem;
+  opacity: 0;
+}
+.hov-kor {
+  height: 5rem;
+  width: 5rem;
+  position: absolute;
+  top: 25rem;
+  left: 92rem;
+  opacity: 0;
+}
+.hov-ita {
+  height: 5rem;
+  width: 5rem;
+  position: absolute;
+  top: 23.5rem;
+  left: 56rem;
+  opacity: 0;
+}
+.hov-mex {
+  height: 5rem;
+  width: 5rem;
+  position: absolute;
+  top: 28.75rem;
+  left: 15rem;
+  opacity: 0;
+}
+
+.btn-img-pin {
+  height: 2rem;
+  position: relative;
+}
+}
+@media (max-width: 414px) {
+  .map {
+    max-width: 25rem;
+  height: 20rem;
+}
+
+.pin-america {
+  position: absolute;
+  top: 12.5rem;
+  left: 4rem;
+  height: 5rem;
+  width: 5rem;
+}
+
+.pin-korea {
+  position: absolute;
+  top: 12.5rem;
+  left: 18.75rem;
+  height: 5rem;
+  width: 5rem;
+}
+
+.pin-mexico {
+  position: absolute;
+  top: 14.5rem;
+  left: 3.5rem;
+  height: 5rem;
+  width: 5rem;
+}
+
+.pin-italy {
+  position: absolute;
+  top: 12.25rem;
+  left: 11rem;
+  height: 5rem;
+  width: 5rem;
+}
+
+.hov-amer {
+  height: 5rem;
+  width: 5rem;
+  position: absolute;
+  top: 24.5rem;
+  left: 21.25rem;
+  opacity: 0;
+}
+.hov-kor {
+  height: 5rem;
+  width: 5rem;
+  position: absolute;
+  top: 25rem;
+  left: 92rem;
+  opacity: 0;
+}
+.hov-ita {
+  height: 5rem;
+  width: 5rem;
+  position: absolute;
+  top: 23.5rem;
+  left: 56rem;
+  opacity: 0;
+}
+.hov-mex {
+  height: 5rem;
+  width: 5rem;
+  position: absolute;
+  top: 28.75rem;
+  left: 15rem;
+  opacity: 0;
+}
+
+.btn-img-pin {
+  height: 2rem;
+  position: relative;
+}
+}
+
 </style>

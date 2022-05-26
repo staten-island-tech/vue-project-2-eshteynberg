@@ -38,12 +38,21 @@ export default {
 </script>
 
 <style>
-.Post {
+
+.link {
+  text-decoration: none;
+  text-align: center;
+}
+
+/* media queries */
+
+@media (max-width: 20000px) {
+  .Post {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   width: 28rem;
-  font-size: 3rem;
+  font-size: 2rem;
   margin: 3.5rem 3rem;
   padding: 2rem;
   align-items: center;
@@ -54,16 +63,63 @@ export default {
 }
 
 .post-description {
-  size: 0.5rem;
   text-align: center;
 
 }
 .image-post {
   width: 25rem;
   border-radius: 1rem;
+}
+}
+
+@media (max-width:768px) {
+   .Post {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 14rem;
+  font-size: 2rem;
+  padding: 2rem;
+  align-items: center;
+  border-radius: 3rem;
+  box-shadow: 0 0.25rem 0.5rem 0 rgba(0, 0, 0, 0.2),
+    0 0.375rem 1.25rem 0 rgba(0, 0, 0, 0.19);
+}
+
+.post-description {
+  text-align: center;
 
 }
-.link {
-  text-decoration: none;
+.image-post {
+  width: 15rem;
+  border-radius: 1rem;
 }
+
+}
+
+@media (max-width:414px) {
+   .Post {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 14rem;
+  font-size: 2rem;
+  padding: 2rem;
+  align-items: center;
+  border-radius: 3rem;
+  box-shadow: 0 0.25rem 0.5rem 0 rgba(0, 0, 0, 0.2),
+    0 0.375rem 1.25rem 0 rgba(0, 0, 0, 0.19);
+}
+
+.post-description {
+  text-align: center;
+
+}
+.image-post {
+  width: 10rem;
+  border-radius: 1rem;
+}
+
+}
+
 </style>

@@ -13,8 +13,9 @@
           :image="blogpost.image"
           :slug="blogpost.slug"
         ></Post>
-        <quotepg class="quotes"></quotepg>
+       
       </div>
+       <quotepg class="quotes"></quotepg>
     </div>
   </body>
 </template>
@@ -52,10 +53,31 @@ export default {
   background-color: #b2966f;
 }
 
+/* media queries */
+
+@media (max-width: 200000px) {
+
 .test {
   object-fit: contain;
-  margin-left: -1.5rem;
 }
+
+.all-posts {
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-evenly;
+}
+.quotes {
+  margin-bottom: 10rem;
+  width: 10rem;
+}
+
+.photos {
+  height: 5rem 3rem;
+  overflow: hidden;
+}
+}
+
+@media (max-width: 768px) {
 
 .all-posts {
   flex-wrap: wrap;
@@ -70,5 +92,7 @@ export default {
   height: 5rem 3rem;
   overflow: hidden;
 }
+}
+
 </style>
 

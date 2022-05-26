@@ -5,16 +5,29 @@
 </template>
 
 <style scoped>
+
+@media (max-width: 20000px) {
 .splash {
-  width: 120rem;
+  width: 117rem;
   height: 55rem;
   background-size: cover;
 }
-#food-blog {
-  position: relative;
-  bottom: 176rem;
-  text-align: center;
-  font-size: 4rem;
-  color: white;
 }
+
+@media (max-width: 786px) {
+  .splash {
+  max-width: 46rem;
+  height: 27rem;
+  background-size: cover;
+}
+}
+
+@media (max-width: 414px) {
+  .splash {
+  max-width: 23.75rem;
+  height: 15rem;
+  background-size: cover;
+}
+}
+
 </style>

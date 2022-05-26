@@ -1,26 +1,25 @@
 <template>
   <div>
-    <img class="info-josh" src="/img/chalk.png" alt="" />
-    <img class="info-emily" src="/img/coffee.png" alt="" />
-    <img class="info-satina" src="/img/dots.png" alt="" />
-    <img class="info-whalen" src="/img/pin.png" alt="" />
     <img class="quotePg" src="/img/This One.png" alt="" />
-    <a class="josh" href="" alt=""
+    <a class="josh" href="/about-j" alt=""
       ><img class="ph" src="/img/placeholder.png" alt=""
-    /></a>
-    <a class="emily" href="" alt=""
+    ></a>
+    <a class="emily" href="/about-e" alt=""
       ><img class="ph" src="/img/placeholder.png" alt=""
-    /></a>
-    <a class="satina" href="" alt=""
+    ></a>
+    <a class="satina" href="/about-s" alt=""
       ><img class="ph" src="/img/placeholder.png" alt=""
-    /></a>
-    <a class="whalen" href="" alt=""
+   ></a>
+    <a class="whalen" href="/about-w" alt=""
       ><img class="ph" src="/img/placeholder.png" alt=""
-    /></a>
+    ></a>
   </div>
 </template>
 
 <style>
+
+@media (max-width:20000px) {
+  
 .quotePg {
   width: 117.9375rem;
   height: 60rem;
@@ -28,8 +27,8 @@
 }
 
 .ph {
-  width: 10rem;
-  height: 10rem;
+  width: 15rem;
+  height: 15rem;
   z-index: 0;
   opacity: 100%;
 }
@@ -41,10 +40,7 @@
   height: 15rem;
   width: 15rem;
 }
-.satina:hover ~ .info-satina {
-  animation-name: fadeIn;
-  animation-duration: 1s;
-}
+
 .josh {
   position: absolute;
   top: 11rem;
@@ -52,10 +48,7 @@
   height: 15rem;
   width: 15rem;
 }
-.josh:hover ~ .info-josh{ 
-    /* animation: fadeIn 1s; */
-      transform: translateY(-0.3rem);
-}
+
 .emily {
   position: absolute;
   top: 26.25rem;
@@ -63,9 +56,7 @@
   height: 15rem;
   width: 15rem;
 }
-.emily:hover ~ .info-emily {
-  animation: fadeIn 1s;
-}
+
 .whalen {
   position: absolute;
   top: 18rem;
@@ -73,46 +64,104 @@
   height: 15rem;
   width: 15rem;
 }
-.whalen:hover ~ .info-whalen {
-  animation-name: fadeIn;
-  animation-duration: 1s;
+
+}
+@media (max-width:768px) {
+  
+.quotePg {
+  max-width: 45rem;
+  height: 28rem;
+  z-index: -10000;
+  margin-left: 1rem;
 }
 
-.info-josh {
-  width: 15rem;
-  height: 15rem;
-  position: absolute;
-  margin-top: 3rem;
-  margin-left: 39rem;
-}
-.info-emily {
-  width: 15rem;
-  height: 15rem;
-  position: absolute;
-  margin-top: 3rem;
-  margin-left: 39rem;
-}
-.info-satina {
-  width: 15rem;
-  height: 15rem;
-  position: absolute;
-  margin-top: 3rem;
-  margin-left: 39rem;
-}
-.info-whalen {
-  width: 15rem;
-  height: 15rem;
-  position: absolute;
-  margin-top: 3rem;
-  margin-left: 39rem;
+.ph {
+  width: 5rem;
+  height: 5rem;
+  z-index: 0;
+  opacity: 100%;
 }
 
-@keyframes fadeIn {
-  0% {
-    opacity: 0%;
-  }
-  100% {
-    opacity: 100%;
-  }
+.satina {
+  position: absolute;
+  top: 13rem;
+  left: 23.5rem;
+  height: 15rem;
+  width: 15rem;
 }
+
+.josh {
+  position: absolute;
+  top: 11rem;
+  left: 9.5rem;
+  height: 15rem;
+  width: 15rem;
+}
+
+.emily {
+  position: absolute;
+  top: 16.25rem;
+  left: 17rem;
+  height: 15rem;
+  width: 15rem;
+}
+
+.whalen {
+  position: absolute;
+  top: 14rem;
+  left: 32rem;
+  height: 15rem;
+  width: 15rem;
+}
+
+}
+@media (max-width: 414px) {
+  
+.quotePg {
+  max-width: 48rem;
+  z-index: -10000;
+  margin-left: 2rem;
+}
+
+.ph {
+  width: 3rem;
+  height: 3rem;
+  z-index: 0;
+  opacity: 100%;
+}
+
+.satina {
+  position: absolute;
+  top: 9rem;
+  left: 11.5rem;
+  height: 15rem;
+  width: 15rem;
+}
+
+.josh {
+  position: absolute;
+  top: 7rem;
+  left: 4rem;
+  height: 15rem;
+  width: 15rem;
+}
+
+.emily {
+  position: absolute;
+  top: 11rem;
+  left: 8rem;
+  height: 15rem;
+  width: 15rem;
+}
+
+.whalen {
+  position: absolute;
+  top: 9rem;
+  left: 16rem;
+  height: 15rem;
+  width: 15rem;
+}
+
+}
+
 </style>
