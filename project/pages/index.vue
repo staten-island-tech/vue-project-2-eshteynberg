@@ -22,7 +22,6 @@
 
 <script>
 import photospg from '../components/photospg.vue'
-import _slugVue from './_slug.vue'
 export default {
   components: { photospg },
   name: 'IndexPage',
@@ -42,28 +41,20 @@ export default {
       .fetch()
   },
 }
-console.log(this)
 </script>
 
 <style>
-html, body, *{
-  margin: 0 ;
+.container {
+  margin: 0 auto;
   padding: 0;
   box-sizing: border-box;
   font-size: 62.5%;
-}
-body{ 
-    background-color: #b2966f;
-}
-
-.container {
-  
-
-  margin-left: -2.1rem;
+  background-color: #b2966f;
 }
 
 .test {
   object-fit: contain;
+  margin-left: -1.5rem;
 }
 
 .all-posts {

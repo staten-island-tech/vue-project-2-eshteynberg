@@ -1,11 +1,12 @@
 <template>
   <div class="Post">
+    <img class="image-post" :src="image" alt="test" />
     <nuxt-link class="link" :to="{ name: 'slug', params: { slug: slug } }">{{
       title
     }}</nuxt-link>
 
-    <h2>{{ description }}</h2>
-    <img class="image" :src="image" alt="test" />
+    <p class="post-description">{{ description }}</p>
+    
   </div>
 </template>
 
@@ -52,14 +53,17 @@ export default {
     0 0.375rem 1.25rem 0 rgba(0, 0, 0, 0.19);
 }
 
-h3 {
-  size: 10rem;
+.post-description {
+  size: 0.5rem;
+  text-align: center;
+
 }
-.image {
-  width: 30rem;
+.image-post {
+  width: 25rem;
+  border-radius: 1rem;
+
 }
 .link {
   text-decoration: none;
-  margin-top: 10rem;
 }
 </style>
