@@ -1,12 +1,11 @@
-<template>    
-<div class="NavBar">
-          <img class="coffee" src="./img/coffee.png" alt="" />
-      <a class="btn" href="/">Home</a>
-      <a class="btn" href="/about">About</a>
-      <a class="btn" href="/cuisines">Cuisines</a>
-      <a class="btn" href="/contact">Contact Us</a>
-    </div>
-
+<template>
+  <div class="NavBar">
+    <img class="coffee" src="/img/coffee.png" alt="" />
+    <a class="btn" href="/">Home</a>
+    <a class="btn" href="/about">About</a>
+    <a class="btn" href="/cuisines">Cuisines</a>
+    <a class="btn" href="/contact">Contact Us</a>
+  </div>
 </template>
 
 <style scoped>
@@ -45,15 +44,12 @@
 }
 
 
-div{
-position: sticky;
-top: 0;
+div {
+  position: sticky;
+  top: 0;
   margin-left: -1.5rem;
   z-index: 10;
-  
 }
-
-
 </style>
 
 <script>

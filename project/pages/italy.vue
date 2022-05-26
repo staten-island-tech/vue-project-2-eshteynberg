@@ -6,10 +6,11 @@
         v-for="blogpost in blogposts"
         :key="blogpost.description"
         :title="blogpost.title"
-        :desc="blogpost.description"
-        :img="blogpost.image"
+        :description="blogpost.description"
+        :image="blogpost.image"
         :slug="blogpost.slug"
-      ></Post>
+      >
+      </Post>
     </div>
   </body>
 </template>
@@ -23,7 +24,7 @@ export default {
   },
   async fetch() {
     this.blogposts = await this.$content('blogposts')
-      .where({ tags: 'italian' })
+      .where({ tags: { $contains: 'italian' } })
       .fetch()
   },
 }

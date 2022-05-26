@@ -4,7 +4,8 @@
       title
     }}</nuxt-link>
 
-    <!-- <img src="{{ ubiuibuibbbu }}" alt=""> -->
+    <h2>{{ description }}</h2>
+    <img class="image" :src="image" alt="test" />
   </div>
 </template>
 
@@ -28,9 +29,9 @@ export default {
       type: String,
       default: '/',
     },
-  },
-  data() {
-    return{}
+    image: {
+      type: String,
+    },
   },
 }
 </script>

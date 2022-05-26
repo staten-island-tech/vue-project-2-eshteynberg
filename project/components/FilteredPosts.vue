@@ -3,10 +3,9 @@
     <div class="filtered-posts">
       <h1>Recent Posts</h1>
       <div class="Parent">
-      
-          <img class="img" src="./img/meat-lasagna-1200.jpg" alt="" />
-      <img class="img" src="./img/spaghetti-squash-soup.jpg" alt="" />
-        </div>
+        <img class="img" src="/img/meat-lasagna-1200.jpg" alt="" />
+        <img class="img" src="/img/spaghetti-squash-soup.jpg" alt="" />
+      </div>
     </div>
   </body>
 </template>

@@ -8,6 +8,7 @@
 <style>
 body {
   background-color: #e3c49c;
+  overflow-x: hidden;
 }
 
 .map-component{

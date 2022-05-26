@@ -1,23 +1,24 @@
 <template>
   <div>
-    <img class="map" src="./img/map.png" alt="" />
+    <img class="map" src="/img/map.png" alt="" />
+
     <div class="pin">
       <a class="pin-america" href="/amer"
-        ><img class="btn-img-pin" src="./img/pin.png" alt=""
+        ><img class="btn-img-pin" src="/img/pin.png" alt=""
       /></a>
       <a class="pin-korea" href="/korea"
-        ><img class="btn-img-pin" src="./img/pin.png" alt=""
+        ><img class="btn-img-pin" src="/img/pin.png" alt=""
       /></a>
       <a class="pin-italy" href="/italy"
-        ><img class="btn-img-pin" src="./img/pin.png" alt=""
+        ><img class="btn-img-pin" src="/img/pin.png" alt=""
       /></a>
       <a class="pin-mexico" href="/mex"
-        ><img class="btn-img-pin" src="./img/pin.png" alt=""
+        ><img class="btn-img-pin" src="/img/pin.png" alt=""
       /></a>
-      <img class="hov-amer" src="./img/placeholder.png" alt="" />
-      <img class="hov-kor" src="./img/placeholder.png" alt="" />
-      <img class="hov-ita" src="./img/placeholder.png" alt="" />
-      <img class="hov-mex" src="./img/placeholder.png" alt="" />
+      <img class="hov-amer" src="/img/placeholder.png" alt="" />
+      <img class="hov-kor" src="/img/placeholder.png" alt="" />
+      <img class="hov-ita" src="/img/placeholder.png" alt="" />
+      <img class="hov-mex" src="/img/placeholder.png" alt="" />
     </div>
   </div>
 </template>
