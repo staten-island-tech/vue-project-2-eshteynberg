@@ -60,22 +60,16 @@ export default {
       0 0.375rem 1.25rem 0 rgba(0, 0, 0, 0.19);
   }
 
-  h2 {
-    font-size: 2rem;
+  .post-description {
     text-align: center;
   }
-  .image {
-    width: 24rem;
-    border-radius: 3rem;
+  .image-post {
+    width: 25rem;
+    border-radius: 1rem;
     border: solid black;
-    transition: 300ms;
-  }
-  .image:hover {
-    transform: scale(1.1);
   }
   .link {
-    text-decoration: none;
-    margin-top: 5rem;
+    text-decoration: underline;
     color: black;
   }
 }
