@@ -6,7 +6,6 @@
     }}</nuxt-link>
 
     <p class="post-description">{{ description }}</p>
-    
   </div>
 </template>
 
@@ -38,7 +37,6 @@ export default {
 </script>
 
 <style>
-
 .link {
   text-decoration: none;
   text-align: center;
@@ -48,78 +46,83 @@ export default {
 
 @media (max-width: 20000px) {
   .Post {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  width: 28rem;
-  font-size: 2rem;
-  margin: 3.5rem 3rem;
-  padding: 2rem;
-  align-items: center;
-  border-radius: 3rem;
-  margin-bottom: 5rem;
-  box-shadow: 0 0.25rem 0.5rem 0 rgba(0, 0, 0, 0.2),
-    0 0.375rem 1.25rem 0 rgba(0, 0, 0, 0.19);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 28rem;
+    font-size: 2rem;
+    margin: 3.5rem 3rem;
+    padding: 2rem;
+    align-items: center;
+    border-radius: 3rem;
+    margin-bottom: 5rem;
+    box-shadow: 0 0.25rem 0.5rem 0 rgba(0, 0, 0, 0.2),
+      0 0.375rem 1.25rem 0 rgba(0, 0, 0, 0.19);
+  }
+
+  h2 {
+    font-size: 2rem;
+    text-align: center;
+  }
+  .image {
+    width: 24rem;
+    border-radius: 3rem;
+    border: solid black;
+    transition: 300ms;
+  }
+  .image:hover {
+    transform: scale(1.1);
+  }
+  .link {
+    text-decoration: none;
+    margin-top: 5rem;
+    color: black;
+  }
 }
 
-.post-description {
-  text-align: center;
+@media (max-width: 768px) {
+  .Post {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 14rem;
+    font-size: 2rem;
+    padding: 2rem;
+    align-items: center;
+    border-radius: 3rem;
+    box-shadow: 0 0.25rem 0.5rem 0 rgba(0, 0, 0, 0.2),
+      0 0.375rem 1.25rem 0 rgba(0, 0, 0, 0.19);
+  }
 
-}
-.image-post {
-  width: 25rem;
-  border-radius: 1rem;
-}
-}
-
-@media (max-width:768px) {
-   .Post {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  width: 14rem;
-  font-size: 2rem;
-  padding: 2rem;
-  align-items: center;
-  border-radius: 3rem;
-  box-shadow: 0 0.25rem 0.5rem 0 rgba(0, 0, 0, 0.2),
-    0 0.375rem 1.25rem 0 rgba(0, 0, 0, 0.19);
-}
-
-.post-description {
-  text-align: center;
-
-}
-.image-post {
-  width: 15rem;
-  border-radius: 1rem;
+  .post-description {
+    text-align: center;
+  }
+  .image-post {
+    width: 15rem;
+    border-radius: 1rem;
+  }
 }
 
-}
+@media (max-width: 414px) {
+  .Post {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 14rem;
+    font-size: 2rem;
+    padding: 2rem;
+    align-items: center;
+    border-radius: 3rem;
+    box-shadow: 0 0.25rem 0.5rem 0 rgba(0, 0, 0, 0.2),
+      0 0.375rem 1.25rem 0 rgba(0, 0, 0, 0.19);
+  }
 
-@media (max-width:414px) {
-   .Post {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  width: 14rem;
-  font-size: 2rem;
-  padding: 2rem;
-  align-items: center;
-  border-radius: 3rem;
-  box-shadow: 0 0.25rem 0.5rem 0 rgba(0, 0, 0, 0.2),
-    0 0.375rem 1.25rem 0 rgba(0, 0, 0, 0.19);
+  .post-description {
+    text-align: center;
+  }
+  .image-post {
+    width: 10rem;
+    border-radius: 1rem;
+  }
 }
-
-.post-description {
-  text-align: center;
-
-}
-.image-post {
-  width: 10rem;
-  border-radius: 1rem;
-}
-
-}
-
 </style>
