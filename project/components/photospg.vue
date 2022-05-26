@@ -1,9 +1,9 @@
 <template>
   <div>
     <img class="quotePg" src="/img/This One.png" alt="" />
-    <a class="josh" href="/about-j" alt=""
-      ><img class="ph" src="/img/placeholder.png" alt=""
-    ></a>
+    <a class="josh" href="/about-j" alt="">
+      <img class="ph" src="/img/placeholder.png" alt="">
+      </a>
     <a class="emily" href="/about-e" alt=""
       ><img class="ph" src="/img/placeholder.png" alt=""
     ></a>
@@ -30,7 +30,7 @@
   width: 15rem;
   height: 15rem;
   z-index: 0;
-  opacity: 100%;
+  opacity: 0;
 }
 
 .satina {
@@ -39,6 +39,7 @@
   left: 58.5rem;
   height: 15rem;
   width: 15rem;
+  opacity: 100%;
 }
 
 .josh {
@@ -47,6 +48,7 @@
   left: 20.5rem;
   height: 15rem;
   width: 15rem;
+  opacity: 100%;
 }
 
 .emily {
@@ -55,6 +57,7 @@
   left: 40rem;
   height: 15rem;
   width: 15rem;
+  opacity: 100%;
 }
 
 .whalen {
@@ -63,6 +66,7 @@
   left: 82rem;
   height: 15rem;
   width: 15rem;
+  opacity: 100%;
 }
 
 }
@@ -79,7 +83,7 @@
   width: 5rem;
   height: 5rem;
   z-index: 0;
-  opacity: 100%;
+  opacity: 0;
 }
 
 .satina {
@@ -127,7 +131,7 @@
   width: 3rem;
   height: 3rem;
   z-index: 0;
-  opacity: 100%;
+  opacity: 0;
 }
 
 .satina {
