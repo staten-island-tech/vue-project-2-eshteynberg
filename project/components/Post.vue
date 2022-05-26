@@ -67,10 +67,15 @@ export default {
     width: 25rem;
     border-radius: 1rem;
     border: solid black;
+    transition: 300ms;
   }
   .link {
     text-decoration: underline;
     color: black;
+    padding: 3rem;
+  }
+  .image-post:hover {
+    transform: scale(1.1);
   }
 }
 
