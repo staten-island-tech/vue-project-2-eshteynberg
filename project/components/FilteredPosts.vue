@@ -8,6 +8,7 @@
 <section class="ameri">
         <div class="child1">
         <img class="img" src="../static/img/ameri1.jpg" alt="" />
+       
         </div>
         <div class="child2">
         <img class="img" src="../static/img/ameri2.jpg" alt="" />
@@ -56,7 +57,7 @@ font-size: 1.5rem;
 .container {
   background-color: #c09165;
   padding: 10rem;
-  width: 45rem;
+  width: 48rem;
 margin: auto;
 margin-top: 5rem;
 display: grid;

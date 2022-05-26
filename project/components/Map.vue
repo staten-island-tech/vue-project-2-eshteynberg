@@ -15,10 +15,10 @@
       <a class="pin-mexico" href="/mex"
         ><img class="btn-img-pin" src="/img/pin.png" alt=""
       /></a>
-      <img class="hov-amer" src="/img/placeholder.png" alt="" />
-      <img class="hov-kor" src="/img/placeholder.png" alt="" />
-      <img class="hov-ita" src="/img/placeholder.png" alt="" />
-      <img class="hov-mex" src="/img/placeholder.png" alt="" />
+      <img class="hov-amer" src="../static/img/american food.jpg" alt="" />
+      <img class="hov-kor" src="../static/img/asian.png" alt="" />
+      <img class="hov-ita" src="../static/img/mediterranean food.jpg" alt="" />
+      <img class="hov-mex" src="../static/img/spanish food.jpg" alt="" />
     </div>
   </div>
 </template>
