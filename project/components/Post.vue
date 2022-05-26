@@ -1,9 +1,13 @@
 <template>
+
   <div class="Post">
-    <img class="image-post" :src="image" alt="test" />
+    
     <nuxt-link class="link" :to="{ name: 'slug', params: { slug: slug } }">{{
       title
     }}</nuxt-link>
+    <nuxt-link :to="{ name: 'slug', params: { slug: slug } }">
+      <img class="image-post" :src="image" alt="test" />
+    </nuxt-link>
 
     <p class="post-description">{{ description }}</p>
   </div>
@@ -42,6 +46,10 @@ export default {
   text-align: center;
 }
 
+.Post:hover {
+  background-color: tomato;
+}
+
 /* media queries */
 
 @media (max-width: 20000px) {
@@ -58,6 +66,7 @@ export default {
     margin-bottom: 5rem;
     box-shadow: 0 0.25rem 0.5rem 0 rgba(0, 0, 0, 0.2),
       0 0.375rem 1.25rem 0 rgba(0, 0, 0, 0.19);
+      background-color: turquoise;
   }
 
   .post-description {
