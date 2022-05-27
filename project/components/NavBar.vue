@@ -10,6 +10,11 @@
 
 <style scoped>
 
+.btn{
+  text-decoration: none;
+  color: white;
+}
+
 .btn:hover {
   transform: translateY(-0.3rem);
 }
