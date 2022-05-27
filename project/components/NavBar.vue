@@ -5,6 +5,7 @@
     <a class="btn" href="/about">About</a>
     <a class="btn" href="/cuisines">Cuisines</a>
     <a class="btn" href="/contact">Contact Us</a>
+    <button class="btn">Theme</button>
   </div>
 </template>
 
