@@ -9,7 +9,10 @@
 </template>
 
 <style scoped>
-
+.btn{
+  color: white;
+  background-color: #b2966f;
+}
 .btn:hover {
   transform: translateY(-0.3rem);
 }
