@@ -10,12 +10,10 @@
 </template>
 
 <style scoped>
-
 .btn{
-  text-decoration: none;
   color: white;
+  background-color: #b2966f;
 }
-
 .btn:hover {
   transform: translateY(-0.3rem);
 }

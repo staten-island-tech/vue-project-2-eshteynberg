@@ -1,7 +1,5 @@
 <template>
   <div>
-    <!-- <h1>{{ article.title }}</h1> -->
-
     <nuxt-content :document="article" />
   </div>
 </template>
@@ -17,19 +15,31 @@ export default {
 </script>
 
 <style>
-h1{
-  text-align: center;
-  size: 10rem;
+.nuxt-content {
+  display: grid;
 }
 
 .nuxt-content h2 {
-    color: aliceblue;
-    text-align: center;
-}
-
-.nuxt-content img{
-  left: 10rem;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
   align-content: center;
+  grid-template-columns: 1fr;
+  text-align: center;
+  font-family: raleway;
+  font-size: 3.5rem;
 }
-
+.nuxt-content p {
+  text-align: center;
+  font-size: 2rem;
+  padding: 3rem;
+}
+.nuxt-content img {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5rem;
+  width: 39rem;
+  border: solid black;
+  border-radius: 2rem;
+}
 </style>
