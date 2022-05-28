@@ -85,7 +85,7 @@ export default {
   justify-content: space-evenly;
 }
 .quotes {
-  margin-bottom: 10rem;
+  margin-left: -1.25rem;
 }
 
 .photos {

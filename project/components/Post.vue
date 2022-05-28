@@ -48,6 +48,11 @@ export default {
 
 .Post:hover {
   background-color: tomato;
+  transform: scale(1.1);
+}
+
+.image-post:hover {
+  transform: scale(1.1);
 }
 
 /* media queries */
@@ -83,9 +88,7 @@ export default {
     color: black;
     padding: 3rem;
   }
-  .image-post:hover {
-    transform: scale(1.1);
-  }
+
 }
 
 @media (max-width: 768px) {

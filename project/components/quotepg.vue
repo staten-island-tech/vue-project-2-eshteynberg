@@ -15,8 +15,8 @@
 
 @media (max-width:768px) {
   .quotePg {
-   max-width: 45rem;
-  height: 27rem;
+max-width: 34rem;
+  height: 20rem;
 }
 }
 
@@ -24,7 +24,7 @@
   .quotePg {
   max-width: 23.75rem;
   height: 15rem;
-  margin-left: -0.5rem;
+  margin-left: .75rem;
 }
 }
 

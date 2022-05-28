@@ -16,9 +16,8 @@
 
 @media (max-width: 786px) {
   .splash {
-  max-width: 46rem;
-  height: 27rem;
-  background-size: cover;
+  max-width: 34.25rem;
+  height: 20rem;
 }
 }
 
