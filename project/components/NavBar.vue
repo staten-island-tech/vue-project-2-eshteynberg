@@ -5,14 +5,13 @@
     <a class="btn" href="/about">About</a>
     <a class="btn" href="/cuisines">Cuisines</a>
     <a class="btn" href="/contact">Contact Us</a>
-    <button class="btn">Theme</button>
+    <button onclick="body.classList.add(`dark`)" class="btn theme">Theme</button>
   </div>
 </template>
 
 <style scoped>
 .btn{
   color: white;
-  background-color: #b2966f;
 }
 .btn:hover {
   transform: translateY(-0.3rem);
@@ -21,11 +20,28 @@
   transform: translateY(-1px);
 }
 
+.theme {
+    background:none;
+    border:none;
+    margin:0;
+    padding:0;
+    cursor: pointer;
+}
+
+.light{
+  background-color: var(--light-bg);
+  color: var(--light-font);
+}
+
+.dark{
+  background-color: var(--dark-bg);
+  color: var(--dark-font)
+}
+
 /* media queries */
 
 @media (max-width:20000px) {
   .NavBar {
-  background-color: #b2966f;
   height: 6rem;
   text-decoration: none;
   display: flex;
@@ -62,7 +78,6 @@ div {
 
 @media (max-width:768px) {
   .NavBar {
-  background-color: #b2966f;
   max-width: 100%;
   height: 7rem;
   text-decoration: none;
@@ -72,13 +87,13 @@ div {
 
 .coffee {
   z-index: 10;
-  margin-left: 1rem;
+  margin-left: 3rem;
 }
 
 .btn {
   margin-top: 2rem;
   margin-bottom: 0rem;
-  margin-left: 7%;
+  margin-left: 10%;
   font-size: 0.75rem;
   text-align: center;
   text-decoration: none;
@@ -94,8 +109,7 @@ div {
 }
 @media (max-width:414px) {
   .NavBar {
-  background-color: #b2966f;
-  max-width: 10rem;
+  max-width: 30rem;
   height: 2rem;
   text-decoration: none;
   align-items: center;
@@ -105,13 +119,14 @@ div {
 
 .coffee {
   z-index: 10;
-  margin-left: 1.5rem;
+  margin-left: 2rem;
+  width: 3rem;
 }
 
 .btn {
   margin-top: 2rem;
-  margin-bottom: 0rem;
-  margin-left: 1%;
+  margin-bottom: 1rem;
+  margin-left: 7%;
   font-size: 0.5rem;
   text-align: center;
   text-decoration: none;
@@ -130,6 +145,7 @@ div {
 
 <script>
 export default {
-  navbar: Object,
+  navbar: Object,  
 }
+
 </script>

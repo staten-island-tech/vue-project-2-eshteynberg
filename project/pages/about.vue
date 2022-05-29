@@ -13,7 +13,13 @@ export default {
 </script>
 
 <style>
-body {
-  background-color: #b2966f;
+.light{
+  background-color: var(--light-bg);
+  color: var(--light-font);
+}
+
+.dark{
+  background-color: var(--dark-bg);
+  color: var(--dark-font)
 }
 </style>

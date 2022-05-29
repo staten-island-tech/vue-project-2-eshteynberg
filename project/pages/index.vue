@@ -50,7 +50,16 @@ export default {
   padding: 0;
   box-sizing: border-box;
   font-size: 62.5%;
-  background-color: #b2966f;
+}
+
+.light {
+  background-color: var(--light-bg);
+  color: var(--light-font);
+}
+
+.dark {
+  background-color: var(--dark-bg);
+  color: var(--dark-font);
 }
 
 /* media queries */

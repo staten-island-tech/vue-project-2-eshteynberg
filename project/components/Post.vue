@@ -46,8 +46,17 @@ export default {
   text-align: center;
 }
 
+.light{
+  background-color: var(--light-bg);
+  color: var(--light-font);
+}
+
+.dark{
+  background-color: var(--dark-bg);
+  color: var(--dark-font)
+}
+
 .Post:hover {
-  background-color: tomato;
   transform: scale(1.1);
 }
 
@@ -71,7 +80,6 @@ export default {
     margin-bottom: 5rem;
     box-shadow: 0 0.25rem 0.5rem 0 rgba(0, 0, 0, 0.2),
       0 0.375rem 1.25rem 0 rgba(0, 0, 0, 0.19);
-      background-color: turquoise;
   }
 
   .post-description {

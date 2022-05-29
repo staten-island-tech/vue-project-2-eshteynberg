@@ -9,7 +9,8 @@
 <style>
 @media (max-width:200000px) {
   .quotePg {
-  width: 118.938rem;
+  width: 117rem;
+  margin-left: -.5rem;
 }
 }
 

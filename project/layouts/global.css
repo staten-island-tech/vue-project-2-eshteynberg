@@ -1,0 +1,10 @@
+:root {
+    --primary: var(--light-back);
+    --secondary: var(--dark-back);
+  
+  --light-bg: #E3C49C;
+  --dark-bg: #272016;
+  --posts: #b2966f;
+  --light-font: black;
+  --dark-font: white;
+  }

@@ -75,6 +75,16 @@ export default {
   animation-fill-mode: forwards;
 }
 
+.light{
+  background-color: var(--light-bg);
+  color: var(--light-font);
+}
+
+.dark{
+  background-color: var(--dark-bg);
+  color: var(--dark-font)
+}
+
 @keyframes fadeIn {
   0% {
     opacity: 0;

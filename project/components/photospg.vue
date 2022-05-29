@@ -20,6 +20,16 @@
 
 @media (max-width:20000px) {
   
+.light{
+  background-color: var(--light-bg);
+  color: var(--light-font);
+}
+
+.dark{
+  background-color: var(--dark-bg);
+  color: var(--dark-font)
+}
+
 .quotePg {
   width: 117.9375rem;
   height: 60rem;

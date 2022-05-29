@@ -1,6 +1,7 @@
 <template>
   <div>
-    <NavBar class="nav" />
+    <client-only><NavBar class="nav" /></client-only>
+    
     <Nuxt />
   </div>
 </template>
@@ -17,4 +18,14 @@ export default {}
   justify-items: center;
   padding-right: auto;
 }
+
+
+
+.theme-light {
+background-color: var(--light-back);
+  }
+  .theme-dark {
+background-color: var(--dark-back);
+  }
+
 </style>
