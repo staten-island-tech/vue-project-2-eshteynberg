@@ -38,7 +38,7 @@ export default {
   text-align: center;
   font-family: raleway;
   font-size: 3.5rem;
-  box-shadow: 0px 0px 40px 20px rgba(0, 0, 0, 0.05);
+  box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.05);
   
 }
 .nuxt-content p {
