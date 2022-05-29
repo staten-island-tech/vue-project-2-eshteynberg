@@ -1,7 +1,5 @@
 <template>
-
   <div class="Post">
-    
     <nuxt-link class="link" :to="{ name: 'slug', params: { slug: slug } }">{{
       title
     }}</nuxt-link>
@@ -46,22 +44,26 @@ export default {
   text-align: center;
 }
 
-.light{
+.light {
   background-color: var(--light-bg);
   color: var(--light-font);
 }
 
-.dark{
+.dark {
   background-color: var(--dark-bg);
-  color: var(--dark-font)
+  color: var(--dark-font);
 }
 
 .Post:hover {
-  transform: scale(1.1);
+  transform: scale(1.02);
 }
 
 .image-post:hover {
-  transform: scale(1.1);
+  box-shadow: 1px 1px #373737, 2px 2px #373737, 3px 3px #373737, 4px 4px #373737,
+    5px 5px #373737, 6px 6px #373737;
+  -webkit-transform: translateX(-3px);
+  transform: translateX(-3px);
+  transition: 0.5s ease;
 }
 
 /* media queries */
@@ -80,6 +82,7 @@ export default {
     margin-bottom: 5rem;
     box-shadow: 0 0.25rem 0.5rem 0 rgba(0, 0, 0, 0.2),
       0 0.375rem 1.25rem 0 rgba(0, 0, 0, 0.19);
+    transition: 300ms;
   }
 
   .post-description {
@@ -96,7 +99,6 @@ export default {
     color: black;
     padding: 3rem;
   }
-
 }
 
 @media (max-width: 768px) {
@@ -111,6 +113,7 @@ export default {
     border-radius: 3rem;
     box-shadow: 0 0.25rem 0.5rem 0 rgba(0, 0, 0, 0.2),
       0 0.375rem 1.25rem 0 rgba(0, 0, 0, 0.19);
+    transition: 300ms;
   }
 
   .post-description {
@@ -134,6 +137,7 @@ export default {
     border-radius: 3rem;
     box-shadow: 0 0.25rem 0.5rem 0 rgba(0, 0, 0, 0.2),
       0 0.375rem 1.25rem 0 rgba(0, 0, 0, 0.19);
+    transition: 300ms;
   }
 
   .post-description {
