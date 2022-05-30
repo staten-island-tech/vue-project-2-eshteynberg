@@ -1,24 +1,24 @@
 <template>
   <div>
-    <img class="map" src="/img/map.png" alt="" />
+    <img class="map" src="/img/map.png" alt="map of the world" />
 
     <div class="pin">
       <a class="pin-america" href="/amer"
-        ><img class="btn-img-pin" src="/img/pin.png" alt=""
+        ><img class="btn-img-pin" src="/img/pin.png" alt="Pin on American"
       /></a>
       <a class="pin-korea" href="/korea"
-        ><img class="btn-img-pin" src="/img/pin.png" alt=""
+        ><img class="btn-img-pin" src="/img/pin.png" alt="Pin on Korea"
       /></a>
       <a class="pin-italy" href="/italy"
-        ><img class="btn-img-pin" src="/img/pin.png" alt=""
+        ><img class="btn-img-pin" src="/img/pin.png" alt="Pin on Italy"
       /></a>
       <a class="pin-mexico" href="/mex"
-        ><img class="btn-img-pin" src="/img/pin.png" alt=""
+        ><img class="btn-img-pin" src="/img/pin.png" alt="Pin on Mexico"
       /></a>
-      <img class="hov-amer" src="../static/img/american food.jpg" alt="" />
-      <img class="hov-kor" src="../static/img/asian.png" alt="" />
-      <img class="hov-ita" src="../static/img/mediterranean food.jpg" alt="" />
-      <img class="hov-mex" src="../static/img/spanish food.jpg" alt="" />
+      <img class="hov-amer" src="../static/img/american food.jpg" alt="image shows up after hovering over pin on america" />
+      <img class="hov-kor" src="../static/img/asian.png" alt="image shows up after hovering over pin on korea" />
+      <img class="hov-ita" src="../static/img/mediterranean food.jpg" alt="image shows up after hovering over pin on italy" />
+      <img class="hov-mex" src="../static/img/spanish food.jpg" alt="image shows up after hovering over pin on mexico" />
     </div>
   </div>
 </template>

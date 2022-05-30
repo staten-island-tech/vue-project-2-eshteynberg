@@ -1,7 +1,7 @@
 <template>
   <div>
     <h1 class="blog">Lorem Ipsum</h1>
-    <img class="placeholder" src="/img/placeholder.png" alt="" />
+    <img class="placeholder" src="/img/placeholder.png" alt="i am a placeholder" />
     <h3 class="description">
       What is Lorem Ipsum? Lorem Ipsum is simply dummy text of the printing and
       typesetting industry. Lorem Ipsum has been the industry's standard dummy

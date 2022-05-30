@@ -1,6 +1,6 @@
 <template>
   <div>
-    <img class="splash" src="/img/splash.png" alt="" />
+    <img class="splash" src="/img/splash.png" alt="Satinas food blog" />
   </div>
 </template>
 

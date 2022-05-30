@@ -1,6 +1,6 @@
 <template>
   <div class="NavBar">
-    <img class="coffee" src="/img/coffee.png" alt="" />
+    <img class="coffee" src="/img/coffee.png" alt="nice picture of coffee" />
     <a class="btn" href="/">Home</a>
     <a class="btn" href="/about">About</a>
     <a class="btn" href="/cuisines">Cuisines</a>
@@ -12,7 +12,7 @@
 
 <style scoped>
 .btn{
-  color: white;
+  color: var(--post);
 }
 .btn:hover {
   transform: translateY(-0.3rem);

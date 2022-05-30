@@ -1,7 +1,7 @@
 <template>
   <div>
     <body>
-      <img class="quotePg" src="/img/Quote page.png" alt="" />
+      <img class="quotePg" src="/img/Quote page.png" alt="Poeple who love to eat" />
     </body>
   </div>
 </template>

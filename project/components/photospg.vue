@@ -1,17 +1,17 @@
 <template>
   <div>
-    <img class="quotePg" src="/img/This One.png" alt="" />
-    <a class="josh" href="/about-j" alt="">
-      <img class="ph" src="/img/placeholder.png" alt="">
+    <img class="quotePg" src="/img/This One.png" alt="Picture of Satina, Mr. Whalen, Emily, and a monkey" />
+    <a class="josh" href="/about-j" alt="monkey">
+      <img class="ph" src="/img/placeholder.png" alt="monkey">
       </a>
-    <a class="emily" href="/about-e" alt=""
-      ><img class="ph" src="/img/placeholder.png" alt=""
+    <a class="emily" href="/about-e" alt="brian"
+      ><img class="ph" src="/img/placeholder.png" alt="brian"
     ></a>
-    <a class="satina" href="/about-s" alt=""
-      ><img class="ph" src="/img/placeholder.png" alt=""
+    <a class="satina" href="/about-s" alt="snorlaz"
+      ><img class="ph" src="/img/placeholder.png" alt="snorlax"
    ></a>
-    <a class="whalen" href="/about-w" alt=""
-      ><img class="ph" src="/img/placeholder.png" alt=""
+    <a class="whalen" href="/about-w" alt="shiny"
+      ><img class="ph" src="/img/placeholder.png" alt="shiny"
     ></a>
   </div>
 </template>
