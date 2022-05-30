@@ -68,6 +68,7 @@ export default {
 
 .test {
   object-fit: contain;
+  align-content: center;
 }
 
 .all-posts {

@@ -5,7 +5,8 @@
     <a class="btn" href="/about">About</a>
     <a class="btn" href="/cuisines">Cuisines</a>
     <a class="btn" href="/contact">Contact Us</a>
-    <button onclick="body.classList.add(`dark`)" class="btn theme">Theme</button>
+    <button onclick="body.className = ''; body.classList.add(`dark`)" class="btn theme">Dark Theme</button>
+    <button onclick="body.className = ''; body.classList.add(`light`)" class="btn theme">Light Theme</button>
   </div>
 </template>
 
@@ -61,7 +62,7 @@
    flex-flow: row; 
    justify-content: space-between; 
    margin-bottom: 1rem; 
-   margin-left: 18rem; 
+   margin-left: 11%; 
   font-size: 1.25rem;
   text-align: center;
   text-decoration: none;
@@ -93,7 +94,7 @@ div {
 .btn {
   margin-top: 2rem;
   margin-bottom: 0rem;
-  margin-left: 10%;
+  margin-left: 7%;
   font-size: 0.75rem;
   text-align: center;
   text-decoration: none;
@@ -145,7 +146,19 @@ div {
 
 <script>
 export default {
+  props:
+  {
   navbar: Object,  
+  },
+  methods: {
+  myFunction() {
+    console.log('eggs')
+  },
 }
+}
+
+
+
+
 
 </script>
