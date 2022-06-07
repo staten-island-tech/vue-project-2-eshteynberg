@@ -13,7 +13,7 @@ Tacos are perfect for any occasion. On top of that, they have so much room for c
 
 Some of my favorite spots for tacos in the city!
 
-La Bar Cantina 
+La Bar Cantina
 
 Casa Enrique
 
@@ -31,5 +31,4 @@ Taco Mix.
 
 El Gallo Taqueria
 
-
-![](/img/spanish1.jpg)
+![taco](/img/spanish1.jpg)

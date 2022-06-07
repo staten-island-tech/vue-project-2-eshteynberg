@@ -9,10 +9,10 @@ image: '/img/songsong.jpg'
 
 ## Must try Korean Restaurants!
 
-New York City is home to one of the largest Korean populations. With that being said, there’s lots of Korean-style small businesses that have the most heart-warming comfort food. Not just that, these family owned restaurants provide amazing, free side dishes like Kimchi, Mackerels, Mac and Cheese, Mashed Potatoes, Corn, or eggs! My favorite thing about Korean cuisine is that the side dishes are unlimited and free! 
+New York City is home to one of the largest Korean populations. With that being said, there’s lots of Korean-style small businesses that have the most heart-warming comfort food. Not just that, these family owned restaurants provide amazing, free side dishes like Kimchi, Mackerels, Mac and Cheese, Mashed Potatoes, Corn, or eggs! My favorite thing about Korean cuisine is that the side dishes are unlimited and free!
 
 BCD Tofu House:
-This spot is great for a night out with friends or family, although it can be a little pricey.  However, the quality of ingredients is very fresh and it’ll remind you of your mother’s cooking
+This spot is great for a night out with friends or family, although it can be a little pricey. However, the quality of ingredients is very fresh and it’ll remind you of your mother’s cooking
 
 Oh K-Dog:
 Try the famous Korean Street Food from one of the biggest chains “Oh K-Dog”. You have the option of sausage or cheese, wrapped in a special type of dough, and potato toppings. You have the option to add korean traditional sauces like gochujang for a more traditional flavor!
@@ -29,5 +29,4 @@ Food Gallery 32
 
 B.bq Chicken Ktown
 
-
-![](/img/asian.png)
+![asian food](/img/asian.png)

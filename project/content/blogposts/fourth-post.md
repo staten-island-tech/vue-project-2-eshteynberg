@@ -9,7 +9,7 @@ image: '/img/pasta.jpeg'
 
 ## Pasta Spots
 
-NYC is home to all types of dining, ranging from: fine dining to casual cafes, pasta is a must-have staple! Although pasta can be a little pricey, its delectable, creamy taste makes the trip worth it! 
+NYC is home to all types of dining, ranging from: fine dining to casual cafes, pasta is a must-have staple! Although pasta can be a little pricey, its delectable, creamy taste makes the trip worth it!
 
 Here are some of my favorite pasta spots in the city:
 
@@ -23,4 +23,4 @@ Via Carota
 
 Frankies 457 Spuntino
 
-![](/img/pasta.jpeg)
+![pasta](/img/pasta.jpeg)

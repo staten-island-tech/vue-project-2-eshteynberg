@@ -1,18 +1,18 @@
 <template>
   <div>
     <Map class="map-component"></Map>
-    <filtered-posts></filtered-posts>
+    <FilteredPosts></FilteredPosts>
   </div>
 </template>
 
 <style>
-.light{
+.light {
   background-color: var(--light-bg);
   color: var(--light-font);
 }
 
-.dark{
+.dark {
   background-color: var(--dark-bg);
-  color: var(--dark-font)
+  color: var(--dark-font);
 }
 </style>

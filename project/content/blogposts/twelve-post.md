@@ -7,7 +7,6 @@ body: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod t
 image: '/img/chila.jpg'
 ---
 
-
-
 ## Top Chilaquiles
-![](/img/spanish2.jpg)
+
+![espanol](/img/spanish2.jpg)

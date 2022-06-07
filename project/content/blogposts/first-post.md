@@ -17,5 +17,5 @@ Union Square Cafe,
 Bagel’s Bazaar,
 ABC kitchen
 
-![](/img/ameri3.jpg)
-![](/img/cheesyburger.jpg)
+![american food](/img/ameri3.jpg)
+![bruuger](/img/cheesyburger.jpg)

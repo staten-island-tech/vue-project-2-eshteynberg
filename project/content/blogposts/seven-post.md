@@ -13,10 +13,10 @@ Szechuan Cuisine is one of my favorite types of Chinese food. Most people genera
 
 Some of my favorite spots in the city for Szechuan food are:
 
-Wu La Bu Huan 
+Wu La Bu Huan
 Chuan Tian Xia
 Szechuan Mountain House
 Alley 41
 Grain house
 
-![](/img/asian5.jpg)
+![asian food](/img/asian5.jpg)

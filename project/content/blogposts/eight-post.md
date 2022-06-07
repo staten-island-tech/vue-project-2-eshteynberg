@@ -19,4 +19,4 @@ Momofuku Noodle Bar
 Gen Japanese Restaurant
 Shaku Ramen
 
-![](/img/asian3.jpg)
+![asian stuff](/img/asian3.jpg)

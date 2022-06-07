@@ -19,5 +19,4 @@ Angelina Bakery NYC
 
 Veniero's Pasticceria & Caffe
 
-
-![](/img/cheesecake.jpg)
+![cheesecake](/img/cheesecake.jpg)
