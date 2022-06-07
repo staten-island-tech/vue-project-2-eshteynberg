@@ -4,7 +4,7 @@
       title
     }}</nuxt-link>
     <nuxt-link :to="{ name: 'slug', params: { slug: slug } }">
-      <img class="image-post" :src="image" alt="" />
+      <img class="image-post" :src="image" alt="alt stiff" />
     </nuxt-link>
 
     <p class="post-description">{{ description }}</p>

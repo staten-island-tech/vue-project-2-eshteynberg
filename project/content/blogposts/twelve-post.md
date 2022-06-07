@@ -7,8 +7,6 @@ body: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod t
 image: '/img/chila.jpg'
 ---
 
-
-
 ## American food
 
-![](/img/placeholder.png)
+![placeholder](/img/placeholder.png)
