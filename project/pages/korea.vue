@@ -16,6 +16,7 @@
         :title="blogpost.title"
         :description="blogpost.description"
         :image="blogpost.image"
+        :alt="blogpost.alt"
         :slug="blogpost.slug"
       >
       </Post>
@@ -39,15 +40,14 @@ export default {
 </script>
 
 <style>
-
-.light{
+.light {
   background-color: var(--light-bg);
   color: var(--light-font);
 }
 
-.dark{
+.dark {
   background-color: var(--dark-bg);
-  color: var(--dark-font)
+  color: var(--dark-font);
 }
 
 .return {
